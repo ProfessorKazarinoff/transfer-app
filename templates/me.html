@@ -1,0 +1,112 @@
+<!-- templates/me.html -->
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block custom_stylesheets %}
+    <link href="{% static 'css/advising_guide.css' %}" rel="stylesheet">
+{% endblock custom_stylesheets %}
+
+{% block content %}
+<div class="container">
+    <h3>Mechanical Engineering Advising Guide</h3>
+    <h4>Engineering courses</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Course number</th>
+                <th scope="col">Course name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">OSU equivalent</th>
+                <th scope="col">PSU equivalent</th>
+                <th scope="col">Prerequisites</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ENGR 101</td>
+                <td>Engr Fundamentals</td>
+                <td>4</td>
+                <td>MIME 101</td>
+                <td>ME 120 / 121/ 122</td>
+                <td>Plc: MTH 251; Pr/c WR 115</td>
+            </tr>
+            <tr>
+                <td>ENGR 105</td>
+                <td>Engr Graphics 3-D</td>
+                <td>3</td>
+                <td>ENGR 248</td>
+                <td>ME 250</td>
+                <td>ENGR 101</td>
+            </tr>
+                <tr>
+                <td>ENGR 114</td>
+                <td>Engr Programming</td>
+                <td>4</td>
+                <td>ENGR 112</td>
+                <td>ME 120 / 121/ 122</td>
+                <td>ENGR 101</td>
+            </tr>
+            <tr>
+                <td>ENGR 211</td>
+                <td>Statics</td>
+                <td>4</td>
+                <td>ENGR 211</td>
+                <td>EAS 211</td>
+                <td>MTH 252, PHY 211, ENGR 101</td>
+            </tr>
+            <tr>
+                <td>ENGR 212</td>
+                <td>Dynamics</td>
+                <td>4</td>
+                <td>ENGR 212</td>
+                <td>EAS 215</td>
+                <td>ENGR 211</td>
+            </tr>
+            <tr>
+                <td>ENGR 213</td>
+                <td>Strength of Materials</td>
+                <td>4</td>
+                <td>ENGR 213</td>
+                <td>EAS 212</td>
+                <td>ENGR 211</td>
+            </tr>
+            <tr>
+                <td>ENGR 221</td>
+                td>Electrical Circuits I</td>
+                <td>5</td>
+                <td>ENGR 201</td>
+                <td>ECE 241</td>
+                <td>ENGR 101, MTH 252; Rec MTH 253, PHY 213</td>
+            </tr>
+            <tr>
+                <td>ENGR 222</td>
+                <td>Electrical Circuits II</td>
+                <td>5</td>
+                <td>ENGR 202</td>
+                <td>&#8211;</td>
+                <td>ENGR 221</td>
+            </tr>
+            <tr>
+                <td>ENGR 231</td>
+                <td>Material Science</td>
+                <td>4</td>
+                <td>&#8211;</td>
+                <td>ME 213</td>
+                <td>PHY 211, MTH 252, CH 222</td>
+            </tr>
+                <tr>
+                <td>ENGR 262</td>
+                <td>Mfg. Processes</td>
+                <td>4</td>
+                <td>&#8211;</td>
+                <td>ME 240</td>
+                <td>(CMET 121 and CMET 122) or (ENGR 101 and PHY 211)</td>
+            </tr>
+            </tbody>
+      </table>
+    </div>
+
+{% endblock content %}

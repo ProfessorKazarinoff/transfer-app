@@ -1,0 +1,56 @@
+<!-- templates/base.html -->
+
+{% load static %}
+
+{% block doctype %}
+    <!doctype html>
+    <html lang="en">
+{% endblock doctype %}
+
+{% block head %}
+    <head>
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Peter Kazarinoff">
+    {% endblock meta %}
+    {% block favicon %}{% endblock favicon %}
+        <title>{% block title %}College Transfer App{% endblock title %}</title>
+
+        {% block stylesheets %}
+            <!-- bootstrap 4 CDN -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            {% block custom_stylesheets %}
+            {% endblock custom_stylesheets %}
+            <!-- bootswatch theme -->
+            <!-- <link rel="stylesheet" href="{% static 'css/bootswatch_litera_bootstrap.css' %}"> -->
+        {% endblock stylesheets %}
+    </head>
+{% endblock head %}
+
+{% block body %}
+<body>
+{%  block nav %}
+    {% include "nav.html" %}
+{% endblock nav %}
+{% block breadcrumb %}{% endblock breadcrumb %}
+
+<main role="main" class="flex-shrink-0">
+    {% block content %}
+    {% endblock %}
+</main><!-- /.container -->
+
+{% block javascripts %}
+    <!-- jquery.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- popper.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- bootstrap.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+{% endblock javascripts %}
+    </body>
+{% endblock body %}
+</html>
