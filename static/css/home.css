@@ -1,0 +1,9 @@
+/* static/css/home.css
+
+-------------------------------------------------- */
+/* Brings main jumbotron div down below menu */
+
+
+.jumbotron {
+	padding-top: 100px;
+}

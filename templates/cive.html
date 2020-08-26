@@ -1,0 +1,99 @@
+<!-- templates/cive.html -->
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block custom_stylesheets %}
+    <link href="{% static 'css/advising_guide.css' %}" rel="stylesheet">
+{% endblock custom_stylesheets %}
+
+{% block content %}
+<div class="container">
+    <h3>Civil Engineering Advising Guide</h3>
+    <hr>
+    <h4>Engineering courses</h4>
+
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Course number</th>
+<th scope="col">Course name</th>
+<th scope="col">Credits</th>
+<th scope="col">OSU equivalent</th>
+<th scope="col">PSU equivalent</th>
+<th scope="col">Prerequisites</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENGR 101</td>
+<td>Engr Fundamentals</td>
+<td>4</td>
+<td>ENGR 111</td>
+<td>CE 111 / CE 112 /<br />
+CE 115</td>
+<td>Placement: MTH 251; Prerequisite or concurrent WR 115</td>
+</tr>
+<tr>
+<td>ENGR 102</td>
+<td>Engr Graphics</td>
+<td>3</td>
+<td>CCE 201</td>
+<td>CE 111 / CE 112 /<br />
+CE 115</td>
+<td>ENGR 101</td>
+</tr>
+<tr>
+<td>ENGR 114</td>
+<td>Engr Programming</td>
+<td>4</td>
+<td>ENGR 112</td>
+<td>–</td>
+<td>ENGR 101</td>
+</tr>
+<tr>
+<td>ENGR 211</td>
+<td>Statics</td>
+<td>4</td>
+<td>ENGR 211</td>
+<td>EAS 211</td>
+<td>MTH 252, PHY 211, ENGR 101</td>
+</tr>
+<tr>
+<td>ENGR 212</td>
+<td>Dynamics</td>
+<td>4</td>
+<td>ENGR 212</td>
+<td>EAS 215</td>
+<td>ENGR 211</td>
+</tr>
+<tr>
+<td>ENGR 213</td>
+<td>Strength of Materials</td>
+<td>4</td>
+<td>ENGR 213</td>
+<td>EAS 212</td>
+<td>ENGR 211</td>
+</tr>
+<tr>
+<td>ENGR 221</td>
+<td>Electrical Circuits I</td>
+<td>5</td>
+<td>ENGR 201</td>
+<td>–</td>
+<td>ENGR 101, MTH 252; Rec MTH 253, PHY 213</td>
+</tr>
+<tr>
+<td>ENGR 226</td>
+<td>Plane Surveying</td>
+<td>4</td>
+<td>–</td>
+<td>CE 211 / CE 212</td>
+<td>ENGR 102, and (MTH112 or CMET123)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+{% endblock content %}

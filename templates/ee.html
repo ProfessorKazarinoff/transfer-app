@@ -1,0 +1,97 @@
+<!-- templates/ee.html -->
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block custom_stylesheets %}
+    <link href="{% static 'css/advising_guide.css' %}" rel="stylesheet">
+{% endblock custom_stylesheets %}
+
+{% block content %}
+<div class="container">
+    <h3>Electrical Engineering Advising Guide</h3>
+    <hr>
+    <h4>Engineering courses</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Course number</th>
+        <th scope="col">Course name</th>
+        <th scope="col">Credits</th>
+        <th scope="col">OSU equivalent</th>
+        <th scope="col">OIT equivalent</th>
+        <th scope="col">PSU equivalent</th>
+        <th scope="col">Prerequisites</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>ENGR 101</td>
+        <td>Engr Fundamentals</td>
+        <td>4</td>
+        <td>ENGR 111</td>
+        <td>PCCPREQ</td>
+        <td>ECE 101</td>
+        <td>Plc: MTH 251; Pr/c WR 115</td>
+        </tr>
+        <tr>
+        <td>ENGR 114</td>
+        <td>Engr Programming</td>
+        <td>4</td>
+        <td>ECE 112</td>
+        <td>&#8211;</td>
+        <td>ECE 102</td>
+        <td>ENGR 101</td>
+        </tr>
+        <tr>
+        <td>ENGR 171</td>
+        <td>Intro Digital Logic Des.</td>
+        <td>5</td>
+        <td>ECE 271 / 272</td>
+        <td>EE 131</td>
+        <td>ECE 171</td>
+        <td>Pr/c ENGR 221</td>
+        </tr>
+        <tr>
+        <td>ENGR 271</td>
+        <td>Digital Logic Design</td>
+        <td>4</td>
+        <td>ECE 112</td>
+        <td>EE 133</td>
+        <td>ECE 172</td>
+        <td>ENGR 171</td>
+        </tr>
+        <tr>
+        <td>ENGR 221</td>
+        <td>Electrical Circuits I</td>
+        <td>5</td>
+        <td>ENGR 201</td>
+        <td>EE 221</td>
+        <td>ECE 221</td>
+        <td>ENGR 101, MTH 252; Rec MTH 253, PHY 213</td>
+        </tr>
+        <tr>
+        <td>ENGR 222</td>
+        <td>Electrical Circuits II</td>
+        <td>5</td>
+        <td>ENGR 202</td>
+        <td>EE 223</td>
+        <td>ECE 222</td>
+        <td>ENGR 221</td>
+        </tr>
+        <tr>
+        <td>ENGR 223</td>
+        <td>Electrical Circuits III</td>
+        <td>5</td>
+        <td>ENGR 203</td>
+        <td>EE 225</td>
+        <td>ECE 223</td>
+        <td>ENGR 222; Pr/c: MTH 256</td>
+        </tr>
+        </tbody>
+</table>
+</div>
+
+{% endblock content %}
