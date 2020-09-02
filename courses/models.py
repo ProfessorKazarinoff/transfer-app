@@ -33,6 +33,15 @@ class Course(models.Model):
     offered_spring = models.BooleanField(null=True, blank=True)
     offered_summer = models.BooleanField(null=True, blank=True)
 
+    in_cive = models.BooleanField(null=True, blank=True, default=True)
+    in_me = models.BooleanField(null=True, blank=True, default=True)
+    in_ee = models.BooleanField(null=True, blank=True, default=True)
+    in_cheme = models.BooleanField(null=True, blank=True, default=True)
+    in_enviro = models.BooleanField(null=True, blank=True, default=True)
+    in_bioe = models.BooleanField(null=True, blank=True, default=True)
+    in_mse = models.BooleanField(null=True, blank=True, default=True)
+    in_enviroe = models.BooleanField(null=True, blank=True, default=True)
+
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
