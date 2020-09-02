@@ -1,11 +1,9 @@
 # pages/urls.py
 
 from django.urls import path
-from .views import HomePageView, MePageView, CivePageView, EePageView
+from .views import HomePageView, MajorsPageView
 
 urlpatterns = [
-    path("me/", MePageView.as_view(), name="me"),
-    path("cive/", CivePageView.as_view(), name="cive"),
-    path("ee/", EePageView.as_view(), name="ee"),
+    path("major_list/", MajorsPageView.as_view(), name="major_list"),
     path("", HomePageView.as_view(), name="home"),
 ]
