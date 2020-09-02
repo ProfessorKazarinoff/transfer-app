@@ -3,28 +3,31 @@
 from django.db import models
 from django.urls import reverse
 
+
 class Course(models.Model):
-    ENGR = 'ENGR'
-    SCI = 'SCI'
-    MTH = 'MTH'
-    COMM = 'COMM'
-    GENED = 'GENED'
+    ENGR = "ENGR"
+    SCI = "SCI"
+    MTH = "MTH"
+    COMM = "COMM"
+    GENED = "GENED"
     COURSE_TYPE_CHOICES = [
-        (ENGR, 'Engineering Course'),
-        (SCI, 'Science and Programming Course'),
-        (MTH, 'Mathematics Course'),
-        (COMM, 'Communications Course'),
-        (GENED, 'General Education Course'),
+        (ENGR, "Engineering Course"),
+        (SCI, "Science and Programming Course"),
+        (MTH, "Mathematics Course"),
+        (COMM, "Communications Course"),
+        (GENED, "General Education Course"),
     ]
     course_number = models.CharField(max_length=10)
     course_name = models.CharField(max_length=50)
     credits = models.FloatField()
-    course_type = models.CharField(max_length=5, choices=COURSE_TYPE_CHOICES, default=ENGR)
+    course_type = models.CharField(
+        max_length=5, choices=COURSE_TYPE_CHOICES, default=ENGR
+    )
     osu_equivalent = models.CharField(max_length=50)
     psu_equivalent = models.CharField(max_length=50)
     oit_equivalent = models.CharField(max_length=50)
     pre_reqs = models.CharField(max_length=50)
-    
+
     offered_fall = models.BooleanField(null=True, blank=True)
     offered_winter = models.BooleanField(null=True, blank=True)
     offered_spring = models.BooleanField(null=True, blank=True)
@@ -33,7 +36,7 @@ class Course(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ['course_number']
+        ordering = ["course_number"]
 
     def __str__(self):
         return f"{self.course_number} - {self.course_name}"

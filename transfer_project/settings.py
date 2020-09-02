@@ -38,11 +38,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
     # Local
-    'pages.apps.PagesConfig',
-    'users.apps.UsersConfig',
-    'courses.apps.CoursesConfig',
+    "pages.apps.PagesConfig",
+    "users.apps.UsersConfig",
+    "courses.apps.CoursesConfig",
 ]
 
 MIDDLEWARE = [
@@ -114,7 +113,7 @@ USE_L10N = True
 USE_TZ = True
 
 # Custom User Model
-AUTH_USER_MODEL = 'users.CustomUser' # new
+AUTH_USER_MODEL = "users.CustomUser"  # new
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/

@@ -1,3 +1,8 @@
-from django.shortcuts import render
+# courses/views.py
+from django.views.generic import ListView
+from .models import Course
 
-# Create your views here.
+
+class MeCourseView(ListView):
+    model = Course
+    template_name = "me.html"

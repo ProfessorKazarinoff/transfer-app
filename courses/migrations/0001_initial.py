@@ -7,30 +7,48 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Course',
+            name="Course",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('course_number', models.CharField(max_length=10)),
-                ('course_name', models.CharField(max_length=50)),
-                ('credits', models.FloatField()),
-                ('course_type', models.CharField(choices=[('ENGR', 'Engineering Course'), ('SCI', 'Science and Programming Course'), ('MTH', 'Mathematics Course'), ('COMM', 'Communications Course'), ('GENED', 'General Education Course')], default='ENGR', max_length=5)),
-                ('osu_equivalent', models.CharField(max_length=50)),
-                ('psu_equivalent', models.CharField(max_length=50)),
-                ('oit_equivalent', models.CharField(max_length=50)),
-                ('pre_reqs', models.CharField(max_length=50)),
-                ('offered_fall', models.BooleanField(blank=True, null=True)),
-                ('offered_winter', models.BooleanField(blank=True, null=True)),
-                ('offered_sprint', models.BooleanField(blank=True, null=True)),
-                ('offered_summer', models.BooleanField(blank=True, null=True)),
-                ('date_added', models.DateTimeField(auto_now_add=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("course_number", models.CharField(max_length=10)),
+                ("course_name", models.CharField(max_length=50)),
+                ("credits", models.FloatField()),
+                (
+                    "course_type",
+                    models.CharField(
+                        choices=[
+                            ("ENGR", "Engineering Course"),
+                            ("SCI", "Science and Programming Course"),
+                            ("MTH", "Mathematics Course"),
+                            ("COMM", "Communications Course"),
+                            ("GENED", "General Education Course"),
+                        ],
+                        default="ENGR",
+                        max_length=5,
+                    ),
+                ),
+                ("osu_equivalent", models.CharField(max_length=50)),
+                ("psu_equivalent", models.CharField(max_length=50)),
+                ("oit_equivalent", models.CharField(max_length=50)),
+                ("pre_reqs", models.CharField(max_length=50)),
+                ("offered_fall", models.BooleanField(blank=True, null=True)),
+                ("offered_winter", models.BooleanField(blank=True, null=True)),
+                ("offered_sprint", models.BooleanField(blank=True, null=True)),
+                ("offered_summer", models.BooleanField(blank=True, null=True)),
+                ("date_added", models.DateTimeField(auto_now_add=True)),
             ],
-            options={
-                'ordering': ['course_number'],
-            },
+            options={"ordering": ["course_number"],},
         ),
     ]
