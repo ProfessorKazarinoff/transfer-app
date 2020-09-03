@@ -117,6 +117,110 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-09-03T18:21:43.381Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "CH 151 - Preparatory Chemistry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-09-03T18:25:01.255Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "CH 222 - General Chemistry II",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-09-03T18:29:07.848Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "PHY 211 - General Physics (Calculus)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-09-03T18:31:21.066Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "PHY 212 - Physics II (Calculus)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-09-03T18:31:51.269Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "PHY 212 - General Physics II (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-09-03T18:32:06.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "PHY 211 - General Physics I (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-09-03T18:34:20.995Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "PHY 213 - General Physics III (Calculus)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-09-03T18:35:46.452Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "ENGR 262 - Manufacturing Processes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course name\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -760,7 +864,7 @@
   "pk": 12,
   "fields": {
     "course_number": "ENGR 262",
-    "course_name": "Mfg. Processes",
+    "course_name": "Manufacturing Processes",
     "credits": 4.0,
     "course_type": "ENGR",
     "osu_equivalent": "-",
@@ -780,6 +884,141 @@
     "in_mse": null,
     "in_enviroe": null,
     "date_added": "2020-09-03T15:58:39.839Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 13,
+  "fields": {
+    "course_number": "CH 151",
+    "course_name": "Preparatory Chemistry",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "PCC Prereq",
+    "psu_equivalent": "PCC Prereq",
+    "oit_equivalent": "CHE 101 and CHE 104 and MASC L00",
+    "pre_reqs": "WR 115 & RD 115 & MTH 95",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T18:21:43.375Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 14,
+  "fields": {
+    "course_number": "CH 222",
+    "course_name": "General Chemistry II",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "CH 202 / CH 205",
+    "psu_equivalent": "CH 222 / 228",
+    "oit_equivalent": "CH 202 and CHE 205 and MASC L00",
+    "pre_reqs": "CH 221",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T18:25:01.252Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 15,
+  "fields": {
+    "course_number": "PHY 211",
+    "course_name": "General Physics I (Calculus)",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "PH 211",
+    "psu_equivalent": "PH 211 / 214",
+    "oit_equivalent": "PHY 221 and MSC L00",
+    "pre_reqs": "MTH 251; Pr/c: MTH 252",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T18:29:07.846Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 16,
+  "fields": {
+    "course_number": "PHY 212",
+    "course_name": "General Physics II (Calculus)",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "PH 212",
+    "psu_equivalent": "PH 213 / 216",
+    "oit_equivalent": "PHY 223 and MSC L00",
+    "pre_reqs": "PHY 211, MTH 252",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T18:31:21.064Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 17,
+  "fields": {
+    "course_number": "PHY 213",
+    "course_name": "General Physics III (Calculus)",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "PH 213",
+    "psu_equivalent": "PH 212 / 215",
+    "oit_equivalent": "PHY 222 and MASC L00",
+    "pre_reqs": "PHY 211, MTH 252",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T18:34:20.992Z"
   }
 }
 ]
