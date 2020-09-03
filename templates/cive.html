@@ -111,6 +111,38 @@
         </tbody>
       </table>
 
+      <hr>
+      <h4>Communication and writing courses</h4>
+      <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Course number</th>
+                <th scope="col">Course name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">PSU equivalent</th>
+                <th scope="col">OSU equivalent</th>
+                <th scope="col">OIT equivalent</th>
+                <th scope="col">Prerequisites</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in object_list %}
+            {% if course.in_cive %}
+            {% if course.course_type == "COMM" %}
+            <tr>
+                <td>{{ course.course_number }}</td>
+                <td>{{ course.course_name }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.psu_equivalent }}</td>
+                <td>{{ course.osu_equivalent }}</td>
+                <td>{{ course.oit_equivalent }}</td>
+                <td>{{ course.pre_reqs }}</td>
+            </tr>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </tbody>
+      </table>
     </div>
 
 {% endblock content %}

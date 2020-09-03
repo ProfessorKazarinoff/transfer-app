@@ -37,7 +37,6 @@ class Course(models.Model):
     in_me = models.BooleanField(null=True, blank=True, default=True)
     in_ee = models.BooleanField(null=True, blank=True, default=True)
     in_cheme = models.BooleanField(null=True, blank=True, default=True)
-    in_enviro = models.BooleanField(null=True, blank=True, default=True)
     in_bioe = models.BooleanField(null=True, blank=True, default=True)
     in_mse = models.BooleanField(null=True, blank=True, default=True)
     in_enviroe = models.BooleanField(null=True, blank=True, default=True)
@@ -52,3 +51,16 @@ class Course(models.Model):
 
     def get_absolute_url(self):
         return reverse("course_detail", args=[str(self.id)])
+
+class Major(models.Model):
+    abbreviation = models.CharField(max_length=10)
+    name = models.CharField(max_length=50)
+    courses = models.ManyToManyField(Course)
+    class Meta:
+        ordering = ["abbreviation"]
+
+    def __str__(self):
+        return f"{self.abbreviation} - {self.name}"
+
+    def get_absolute_url(self):
+        return reverse("major_detail", args=[str(self.id)])
