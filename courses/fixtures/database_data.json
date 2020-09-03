@@ -221,6 +221,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-09-03T20:17:36.136Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "MTH 252 - Calculus II",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1019,6 +1032,33 @@
     "in_mse": null,
     "in_enviroe": null,
     "date_added": "2020-09-03T18:34:20.992Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 18,
+  "fields": {
+    "course_number": "MTH 252",
+    "course_name": "Calculus II",
+    "credits": 5.0,
+    "course_type": "MTH",
+    "osu_equivalent": "MTH 252",
+    "psu_equivalent": "MTH 252",
+    "oit_equivalent": "MTH 252 and MASC 000",
+    "pre_reqs": "MTH 251",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": true,
+    "in_me": true,
+    "in_ee": true,
+    "in_cheme": true,
+    "in_enviro": true,
+    "in_bioe": true,
+    "in_mse": true,
+    "in_enviroe": true,
+    "date_added": "2020-09-03T20:17:36.128Z"
   }
 }
 ]
