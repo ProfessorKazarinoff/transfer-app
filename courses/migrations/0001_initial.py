@@ -49,6 +49,6 @@ class Migration(migrations.Migration):
                 ("offered_summer", models.BooleanField(blank=True, null=True)),
                 ("date_added", models.DateTimeField(auto_now_add=True)),
             ],
-            options={"ordering": ["course_number"],},
-        ),
+            options={"ordering": ["course_number"]},
+        )
     ]

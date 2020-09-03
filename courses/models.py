@@ -52,10 +52,12 @@ class Course(models.Model):
     def get_absolute_url(self):
         return reverse("course_detail", args=[str(self.id)])
 
+
 class Major(models.Model):
     abbreviation = models.CharField(max_length=10)
     name = models.CharField(max_length=50)
     courses = models.ManyToManyField(Course)
+
     class Meta:
         ordering = ["abbreviation"]
 

@@ -5,14 +5,12 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('courses', '0003_auto_20200902_1401'),
-    ]
+    dependencies = [("courses", "0003_auto_20200902_1401")]
 
     operations = [
         migrations.AddField(
-            model_name='course',
-            name='in_enviroe',
+            model_name="course",
+            name="in_enviroe",
             field=models.BooleanField(blank=True, default=True, null=True),
-        ),
+        )
     ]

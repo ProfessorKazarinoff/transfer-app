@@ -5,44 +5,42 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('courses', '0002_auto_20200826_1250'),
-    ]
+    dependencies = [("courses", "0002_auto_20200826_1250")]
 
     operations = [
         migrations.AddField(
-            model_name='course',
-            name='in_bioe',
+            model_name="course",
+            name="in_bioe",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_cheme',
+            model_name="course",
+            name="in_cheme",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_cive',
+            model_name="course",
+            name="in_cive",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_ee',
+            model_name="course",
+            name="in_ee",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_enviro',
+            model_name="course",
+            name="in_enviro",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_me',
+            model_name="course",
+            name="in_me",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
         migrations.AddField(
-            model_name='course',
-            name='in_mse',
+            model_name="course",
+            name="in_mse",
             field=models.BooleanField(blank=True, default=True, null=True),
         ),
     ]
