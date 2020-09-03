@@ -1,5 +1,122 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-09-03T15:38:13.080Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "CH 221 - General Chemistry I",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-09-03T15:39:22.153Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "MTH 251 - Calculus I",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-09-03T15:43:11.886Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ENGR 211 - Statics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-09-03T15:46:04.796Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "ENGR 212 - Dynamics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-09-03T15:48:25.495Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "ENGR 213 - Strength of Materials",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-09-03T15:51:45.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ENGR 221 - Electrical Circuits I",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-09-03T15:54:42.046Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ENGR 222 - Electrical Circuits II",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-09-03T15:56:35.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "ENGR 231 - Material Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-09-03T15:58:39.841Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "ENGR 262 - Mfg. Processes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -316,11 +433,19 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "pg96on1c2xcrheaihj53sa5kr3ahmp6b",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kDrJ2:m4OFeFM0IVrZRjeT72dsmBNEfvcFpK5k9M0n4XKPCUw",
+    "expire_date": "2020-09-17T15:37:44.238Z"
+  }
+},
+{
   "model": "users.customuser",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-09-02T21:05:31.965Z",
+    "last_login": "2020-09-03T15:37:44.216Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -466,6 +591,195 @@
     "in_mse": true,
     "in_enviroe": true,
     "date_added": "2020-09-02T04:44:34.971Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 6,
+  "fields": {
+    "course_number": "ENGR 211",
+    "course_name": "Statics",
+    "credits": 4.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "ENGR 211",
+    "psu_equivalent": "EAS 211",
+    "oit_equivalent": "ENGR 211",
+    "pre_reqs": "MTH 252, PHY 211, ENGR101",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": false,
+    "in_cive": true,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:43:11.885Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 7,
+  "fields": {
+    "course_number": "ENGR 212",
+    "course_name": "Dynamics",
+    "credits": 4.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "ENGR 212",
+    "psu_equivalent": "EAS 215",
+    "oit_equivalent": "ENGR 212",
+    "pre_reqs": "ENGR 211",
+    "offered_fall": false,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:46:04.794Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 8,
+  "fields": {
+    "course_number": "ENGR 213",
+    "course_name": "Strength of Materials",
+    "credits": 4.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "ENGR 213",
+    "psu_equivalent": "EAS 212",
+    "oit_equivalent": "ENGR 212",
+    "pre_reqs": "ENGR 211",
+    "offered_fall": false,
+    "offered_winter": false,
+    "offered_spring": true,
+    "offered_summer": true,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:48:25.492Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 9,
+  "fields": {
+    "course_number": "ENGR 221",
+    "course_name": "Electrical Circuits I",
+    "credits": 5.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "ENGR 201",
+    "psu_equivalent": "ECE 241",
+    "oit_equivalent": "EE 221",
+    "pre_reqs": "ENGR 101, MTH 252; Rec MTH 253, PHY 213",
+    "offered_fall": true,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": false,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": true,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:51:45.074Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 10,
+  "fields": {
+    "course_number": "ENGR 222",
+    "course_name": "Electrical Circuits II",
+    "credits": 5.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "ENGR 202",
+    "psu_equivalent": "-",
+    "oit_equivalent": "EE 223",
+    "pre_reqs": "ENGR 221",
+    "offered_fall": false,
+    "offered_winter": true,
+    "offered_spring": true,
+    "offered_summer": false,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": true,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:54:42.045Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 11,
+  "fields": {
+    "course_number": "ENGR 231",
+    "course_name": "Material Science",
+    "credits": 4.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "-",
+    "psu_equivalent": "ME 213",
+    "oit_equivalent": "MET 160",
+    "pre_reqs": "PHY 211, MTH 252, CH 222",
+    "offered_fall": false,
+    "offered_winter": false,
+    "offered_spring": true,
+    "offered_summer": false,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": true,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:56:35.437Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 12,
+  "fields": {
+    "course_number": "ENGR 262",
+    "course_name": "Mfg. Processes",
+    "credits": 4.0,
+    "course_type": "ENGR",
+    "osu_equivalent": "-",
+    "psu_equivalent": "ME 240",
+    "oit_equivalent": "MFG 112",
+    "pre_reqs": "ENGR 101 and PHY 211",
+    "offered_fall": false,
+    "offered_winter": true,
+    "offered_spring": false,
+    "offered_summer": false,
+    "in_cive": null,
+    "in_me": true,
+    "in_ee": null,
+    "in_cheme": null,
+    "in_enviro": null,
+    "in_bioe": null,
+    "in_mse": null,
+    "in_enviroe": null,
+    "date_added": "2020-09-03T15:58:39.839Z"
   }
 }
 ]
