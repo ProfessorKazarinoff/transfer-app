@@ -56,6 +56,7 @@ class Course(models.Model):
 class Major(models.Model):
     abbreviation = models.CharField(max_length=10)
     name = models.CharField(max_length=50)
+    slug = models.CharField(max_length=50, null=True, blank=True)
     courses = models.ManyToManyField(Course)
 
     class Meta:

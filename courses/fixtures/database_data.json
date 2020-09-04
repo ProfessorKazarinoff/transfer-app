@@ -585,6 +585,71 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-09-04T14:40:33.809Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-09-04T14:40:39.753Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-09-04T14:42:25.337Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "EE - Electrical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-09-04T14:42:32.452Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "CivE - Civil Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2020-09-04T14:42:40.012Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "ChemE - Chemical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -953,11 +1018,19 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "z8gsusw3z1qlb3dhsvxfh3jyk22pkh4z",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kECt3:2HcP4dC5Sff_tvFRNfsF3nGHhyk1Mv_meS_bZwjJcQE",
+    "expire_date": "2020-09-18T14:40:21.226Z"
+  }
+},
+{
   "model": "users.customuser",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-09-03T15:37:44.216Z",
+    "last_login": "2020-09-04T14:40:21.213Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -1938,6 +2011,7 @@
   "fields": {
     "abbreviation": "ME",
     "name": "Mechanical Engineering",
+    "slug": "me",
     "courses": [
       13,
       4,
@@ -1973,6 +2047,7 @@
   "fields": {
     "abbreviation": "CivE",
     "name": "Civil Engineering",
+    "slug": "cive",
     "courses": [
       13,
       4,
@@ -2007,6 +2082,7 @@
   "fields": {
     "abbreviation": "EE",
     "name": "Electrical Engineering",
+    "slug": "ee",
     "courses": [
       13,
       4,
@@ -2038,6 +2114,7 @@
   "fields": {
     "abbreviation": "ChemE",
     "name": "Chemical Engineering",
+    "slug": "cheme",
     "courses": [
       13,
       4,

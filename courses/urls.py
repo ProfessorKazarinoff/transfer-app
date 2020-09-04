@@ -14,5 +14,5 @@ urlpatterns = [
     path("cive/", CiveCourseListView.as_view(), name="cive_course_list"),
     path("ee/", EeCourseListView.as_view(), name="ee_course_list"),
     path("major_list/", MajorListView.as_view(), name="major_list"),
-    path("majors/<int:pk>/", MajorDetailView.as_view(), name="major_course_list"),
+    path("majors/<slug:slug>/", MajorDetailView.as_view(), name="major_course_list"),
 ]
