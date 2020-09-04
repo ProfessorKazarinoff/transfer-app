@@ -21,7 +21,7 @@ class EeCourseListView(ListView):
 
 class MajorDetailView(DetailView):
     model = Major
-    template_name = "major.html"
+    template_name = "major_detail.html"
 
 
 class MajorListView(ListView):

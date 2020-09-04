@@ -650,6 +650,58 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2020-09-04T17:44:01.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "ChemE - Chemical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2020-09-04T17:44:27.652Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "CivE - Civil Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2020-09-04T17:44:56.503Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "EE - Electrical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2020-09-04T17:45:16.385Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2012,6 +2064,7 @@
     "abbreviation": "ME",
     "name": "Mechanical Engineering",
     "slug": "me",
+    "description": "Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems.",
     "courses": [
       13,
       4,
@@ -2048,6 +2101,7 @@
     "abbreviation": "CivE",
     "name": "Civil Engineering",
     "slug": "cive",
+    "description": "Civil engineers conceive, design, build, supervise, operate, construct and maintain infrastructure projects and systems in the public and private sector, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment.",
     "courses": [
       13,
       4,
@@ -2083,6 +2137,7 @@
     "abbreviation": "EE",
     "name": "Electrical Engineering",
     "slug": "ee",
+    "description": "Electrical engineers design, develop, and test electrical devices and equipment, including communications systems, power generators, motors and navigation systems, and electrical systems for automobiles and aircraft. They also oversee the manufacture of these devices, systems, and equipment.",
     "courses": [
       13,
       4,
@@ -2115,6 +2170,7 @@
     "abbreviation": "ChemE",
     "name": "Chemical Engineering",
     "slug": "cheme",
+    "description": "Chemical engineers develop and design chemical manufacturing processes. Chemical engineers apply the principles of chemistry, biology, physics, and math to solve problems that involve the production or use of chemicals, fuel, drugs, food, and many other products.",
     "courses": [
       13,
       4,
