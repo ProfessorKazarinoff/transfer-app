@@ -5,14 +5,12 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('courses', '0007_major_slug'),
-    ]
+    dependencies = [("courses", "0007_major_slug")]
 
     operations = [
         migrations.AddField(
-            model_name='major',
-            name='description',
+            model_name="major",
+            name="description",
             field=models.TextField(blank=True, max_length=500, null=True),
-        ),
+        )
     ]

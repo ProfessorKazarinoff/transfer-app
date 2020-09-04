@@ -5,14 +5,12 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('courses', '0006_remove_course_in_enviro'),
-    ]
+    dependencies = [("courses", "0006_remove_course_in_enviro")]
 
     operations = [
         migrations.AddField(
-            model_name='major',
-            name='slug',
+            model_name="major",
+            name="slug",
             field=models.CharField(blank=True, max_length=50, null=True),
-        ),
+        )
     ]

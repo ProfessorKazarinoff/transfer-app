@@ -1,18 +1,10 @@
 # courses/urls.py
 
 from django.urls import path
-from .views import (
-    MeCourseListView,
-    CiveCourseListView,
-    EeCourseListView,
-    MajorDetailView,
-    MajorListView,
-)
+from .views import CourseListView, MajorDetailView, MajorListView
 
 urlpatterns = [
-    path("me/", MeCourseListView.as_view(), name="me_course_list"),
-    path("cive/", CiveCourseListView.as_view(), name="cive_course_list"),
-    path("ee/", EeCourseListView.as_view(), name="ee_course_list"),
+    path("course_list/", CourseListView.as_view(), name="course_list"),
     path("major_list/", MajorListView.as_view(), name="major_list"),
     path("major/<slug:slug>/", MajorDetailView.as_view(), name="major_detail"),
 ]

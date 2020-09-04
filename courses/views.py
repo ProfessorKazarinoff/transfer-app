@@ -4,19 +4,9 @@ from django.views.generic import ListView, DetailView
 from .models import Course, Major
 
 
-class MeCourseListView(ListView):
+class CourseListView(ListView):
     model = Course
-    template_name = "me.html"
-
-
-class CiveCourseListView(ListView):
-    model = Course
-    template_name = "cive.html"
-
-
-class EeCourseListView(ListView):
-    model = Course
-    template_name = "ee.html"
+    template_name = "course_list.html"
 
 
 class MajorDetailView(DetailView):
