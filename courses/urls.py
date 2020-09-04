@@ -1,7 +1,13 @@
 # courses/urls.py
 
 from django.urls import path
-from .views import MeCourseListView, CiveCourseListView, EeCourseListView, MajorDetailView, MajorListView
+from .views import (
+    MeCourseListView,
+    CiveCourseListView,
+    EeCourseListView,
+    MajorDetailView,
+    MajorListView,
+)
 
 urlpatterns = [
     path("me/", MeCourseListView.as_view(), name="me_course_list"),

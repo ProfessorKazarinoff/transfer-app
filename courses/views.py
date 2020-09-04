@@ -18,9 +18,11 @@ class EeCourseListView(ListView):
     model = Course
     template_name = "ee.html"
 
+
 class MajorDetailView(DetailView):
     model = Major
     template_name = "major.html"
+
 
 class MajorListView(ListView):
     model = Major
