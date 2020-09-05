@@ -702,6 +702,578 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2020-09-05T21:17:24.004Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "CH 151 - Preparatory Chemistry",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2020-09-05T21:17:35.173Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "CH 221 - General Chemistry I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2020-09-05T21:17:46.198Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "CH 222 - General Chemistry II",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2020-09-05T21:17:56.727Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "34",
+    "object_repr": "CH 223 - General Chemistry III",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2020-09-05T21:18:06.824Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "35",
+    "object_repr": "CH 241 - Organic Chemistry I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2020-09-05T21:18:16.373Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "36",
+    "object_repr": "CH 242 - Organic Chemistry II",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2020-09-05T21:18:36.728Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "36",
+    "object_repr": "CH 242 - Organic Chemistry II",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2020-09-05T21:18:48.795Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "37",
+    "object_repr": "CH 243 - Organic Chemistry III",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2020-09-05T21:19:02.432Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "COMM 111 - Public Speaking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2020-09-05T21:19:14.104Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "EC 201 - Principles of Economics: Microeconomics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2020-09-05T21:19:26.227Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "ENGR 101 - Engr Fundamentals",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2020-09-05T21:19:39.529Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "ENGR 102 - Engr Graphics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2020-09-05T21:19:54.788Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "ENGR 105 - Engr Graphics 3-D",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2020-09-05T21:20:10.133Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ENGR 114 - Engr Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2020-09-05T21:20:24.380Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ENGR 114 - Engr Programming",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2020-09-05T21:20:38.528Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "31",
+    "object_repr": "ENGR 171 - Intro Digital Logic Des.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2020-09-05T21:20:52.510Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ENGR 211 - Statics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2020-09-05T21:21:05.248Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "ENGR 212 - Dynamics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2020-09-05T21:21:17.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "ENGR 213 - Strength of Materials",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2020-09-05T21:21:33.445Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ENGR 221 - Electrical Circuits I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2020-09-05T21:21:46.249Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ENGR 222 - Electrical Circuits II",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2020-09-05T21:22:00.727Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "33",
+    "object_repr": "ENGR 223 - Electrical Circuits III",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2020-09-05T21:22:38.108Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "ENGR 226 - Plane Surveying",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2020-09-05T21:22:50.975Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "ENGR 231 - Material Science",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2020-09-05T21:23:13.077Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "ENGR 262 - Manufacturing Processes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2020-09-05T21:23:28.023Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "32",
+    "object_repr": "ENGR 271 - Digital Logic Design",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2020-09-05T21:23:43.166Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "GEO 265 - Introduction to GIS",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2020-09-05T21:24:09.200Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "HE&PE 295 - Health and Fitness",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2020-09-05T21:24:23.138Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "MTH 251 - Calculus I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2020-09-05T21:24:38.646Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "MTH 252 - Calculus II",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2020-09-05T21:24:52.578Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "MTH 253 - Calculus III",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2020-09-05T21:25:03.824Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "MTH 254 - Vector Calculus I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2020-09-05T21:25:24.382Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "MTH 256 - Differential Equations",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2020-09-05T21:25:35.300Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "MTH 261 - Linear Algebra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2020-09-05T21:25:48.816Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "PHY 211 - General Physics I (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2020-09-05T21:25:59.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "PHY 212 - General Physics II (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2020-09-05T21:26:12.120Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "PHY 213 - General Physics III (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2020-09-05T21:26:22.679Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "WR 121 - English Composition",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2020-09-05T21:26:36.289Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "WR 227 - Tech./Prof. Writing 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2020-09-05T21:28:49.706Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "38",
+    "object_repr": "CS 133U - C Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2020-09-05T21:30:24.215Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "39",
+    "object_repr": "CS 161 - Computer Science I",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2020-09-05T21:32:27.055Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "40",
+    "object_repr": "CS 162 - Computer Science II",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2020-09-05T21:34:15.955Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "41",
+    "object_repr": "CS 260 - Data Structures",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2020-09-05T21:34:38.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "EE - Electrical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Courses\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1100,6 +1672,7 @@
   "pk": 1,
   "fields": {
     "course_number": "ENGR 101",
+    "slug": "engr101",
     "course_name": "Engr Fundamentals",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1126,6 +1699,7 @@
   "pk": 2,
   "fields": {
     "course_number": "ENGR 105",
+    "slug": "engr105",
     "course_name": "Engr Graphics 3-D",
     "credits": 3.0,
     "course_type": "ENGR",
@@ -1152,6 +1726,7 @@
   "pk": 3,
   "fields": {
     "course_number": "ENGR 114",
+    "slug": "engr114",
     "course_name": "Engr Programming",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1178,6 +1753,7 @@
   "pk": 4,
   "fields": {
     "course_number": "CH 221",
+    "slug": "ch221",
     "course_name": "General Chemistry I",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1204,6 +1780,7 @@
   "pk": 5,
   "fields": {
     "course_number": "MTH 251",
+    "slug": "mth251",
     "course_name": "Calculus I",
     "credits": 4.0,
     "course_type": "MTH",
@@ -1230,6 +1807,7 @@
   "pk": 6,
   "fields": {
     "course_number": "ENGR 211",
+    "slug": "engr211",
     "course_name": "Statics",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1256,6 +1834,7 @@
   "pk": 7,
   "fields": {
     "course_number": "ENGR 212",
+    "slug": "engr212",
     "course_name": "Dynamics",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1282,6 +1861,7 @@
   "pk": 8,
   "fields": {
     "course_number": "ENGR 213",
+    "slug": "engr213",
     "course_name": "Strength of Materials",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1308,6 +1888,7 @@
   "pk": 9,
   "fields": {
     "course_number": "ENGR 221",
+    "slug": "engr221",
     "course_name": "Electrical Circuits I",
     "credits": 5.0,
     "course_type": "ENGR",
@@ -1334,6 +1915,7 @@
   "pk": 10,
   "fields": {
     "course_number": "ENGR 222",
+    "slug": "engr222",
     "course_name": "Electrical Circuits II",
     "credits": 5.0,
     "course_type": "ENGR",
@@ -1360,6 +1942,7 @@
   "pk": 11,
   "fields": {
     "course_number": "ENGR 231",
+    "slug": "engr231",
     "course_name": "Material Science",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1386,6 +1969,7 @@
   "pk": 12,
   "fields": {
     "course_number": "ENGR 262",
+    "slug": "engr262",
     "course_name": "Manufacturing Processes",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1412,6 +1996,7 @@
   "pk": 13,
   "fields": {
     "course_number": "CH 151",
+    "slug": "ch151",
     "course_name": "Preparatory Chemistry",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1438,6 +2023,7 @@
   "pk": 14,
   "fields": {
     "course_number": "CH 222",
+    "slug": "ch222",
     "course_name": "General Chemistry II",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1464,6 +2050,7 @@
   "pk": 15,
   "fields": {
     "course_number": "PHY 211",
+    "slug": "phy211",
     "course_name": "General Physics I (Calculus)",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1490,6 +2077,7 @@
   "pk": 16,
   "fields": {
     "course_number": "PHY 212",
+    "slug": "phy212",
     "course_name": "General Physics II (Calculus)",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1516,6 +2104,7 @@
   "pk": 17,
   "fields": {
     "course_number": "PHY 213",
+    "slug": "phy213",
     "course_name": "General Physics III (Calculus)",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1542,6 +2131,7 @@
   "pk": 18,
   "fields": {
     "course_number": "MTH 252",
+    "slug": "mth252",
     "course_name": "Calculus II",
     "credits": 5.0,
     "course_type": "MTH",
@@ -1568,6 +2158,7 @@
   "pk": 19,
   "fields": {
     "course_number": "MTH 253",
+    "slug": "mth253",
     "course_name": "Calculus III",
     "credits": 5.0,
     "course_type": "MTH",
@@ -1594,6 +2185,7 @@
   "pk": 20,
   "fields": {
     "course_number": "MTH 254",
+    "slug": "mth254",
     "course_name": "Vector Calculus I",
     "credits": 5.0,
     "course_type": "MTH",
@@ -1620,6 +2212,7 @@
   "pk": 21,
   "fields": {
     "course_number": "MTH 256",
+    "slug": "mth256",
     "course_name": "Differential Equations",
     "credits": 5.0,
     "course_type": "MTH",
@@ -1646,6 +2239,7 @@
   "pk": 22,
   "fields": {
     "course_number": "MTH 261",
+    "slug": "mth261",
     "course_name": "Linear Algebra",
     "credits": 5.0,
     "course_type": "MTH",
@@ -1672,6 +2266,7 @@
   "pk": 23,
   "fields": {
     "course_number": "COMM 111",
+    "slug": "comm111",
     "course_name": "Public Speaking",
     "credits": 4.0,
     "course_type": "COMM",
@@ -1698,6 +2293,7 @@
   "pk": 24,
   "fields": {
     "course_number": "WR 121",
+    "slug": "wr121",
     "course_name": "English Composition",
     "credits": 4.0,
     "course_type": "COMM",
@@ -1724,6 +2320,7 @@
   "pk": 25,
   "fields": {
     "course_number": "WR 227",
+    "slug": "wr227",
     "course_name": "Tech./Prof. Writing 1",
     "credits": 4.0,
     "course_type": "COMM",
@@ -1750,6 +2347,7 @@
   "pk": 26,
   "fields": {
     "course_number": "ENGR 226",
+    "slug": "engr226",
     "course_name": "Plane Surveying",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1776,6 +2374,7 @@
   "pk": 27,
   "fields": {
     "course_number": "GEO 265",
+    "slug": "geo256",
     "course_name": "Introduction to GIS",
     "credits": 4.0,
     "course_type": "SCI",
@@ -1802,6 +2401,7 @@
   "pk": 28,
   "fields": {
     "course_number": "ENGR 102",
+    "slug": "engr102",
     "course_name": "Engr Graphics",
     "credits": 3.0,
     "course_type": "ENGR",
@@ -1828,6 +2428,7 @@
   "pk": 29,
   "fields": {
     "course_number": "EC 201",
+    "slug": "ec201",
     "course_name": "Principles of Economics: Microeconomics",
     "credits": 4.0,
     "course_type": "GENED",
@@ -1854,6 +2455,7 @@
   "pk": 30,
   "fields": {
     "course_number": "HE&PE 295",
+    "slug": "hepe295",
     "course_name": "Health and Fitness",
     "credits": 3.0,
     "course_type": "GENED",
@@ -1880,6 +2482,7 @@
   "pk": 31,
   "fields": {
     "course_number": "ENGR 171",
+    "slug": "engr171",
     "course_name": "Intro Digital Logic Des.",
     "credits": 5.0,
     "course_type": "ENGR",
@@ -1906,6 +2509,7 @@
   "pk": 32,
   "fields": {
     "course_number": "ENGR 271",
+    "slug": "engr271",
     "course_name": "Digital Logic Design",
     "credits": 4.0,
     "course_type": "ENGR",
@@ -1932,6 +2536,7 @@
   "pk": 33,
   "fields": {
     "course_number": "ENGR 223",
+    "slug": "engr223",
     "course_name": "Electrical Circuits III",
     "credits": 5.0,
     "course_type": "ENGR",
@@ -1958,6 +2563,7 @@
   "pk": 34,
   "fields": {
     "course_number": "CH 223",
+    "slug": "ch223",
     "course_name": "General Chemistry III",
     "credits": 5.0,
     "course_type": "SCI",
@@ -1984,6 +2590,7 @@
   "pk": 35,
   "fields": {
     "course_number": "CH 241",
+    "slug": "ch241",
     "course_name": "Organic Chemistry I",
     "credits": 5.0,
     "course_type": "SCI",
@@ -2010,6 +2617,7 @@
   "pk": 36,
   "fields": {
     "course_number": "CH 242",
+    "slug": "ch242",
     "course_name": "Organic Chemistry II",
     "credits": 5.0,
     "course_type": "SCI",
@@ -2036,6 +2644,7 @@
   "pk": 37,
   "fields": {
     "course_number": "CH 243",
+    "slug": "ch243",
     "course_name": "Organic Chemistry III",
     "credits": 5.0,
     "course_type": "SCI",
@@ -2055,6 +2664,114 @@
     "in_mse": false,
     "in_enviroe": false,
     "date_added": "2020-09-03T21:50:38.965Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 38,
+  "fields": {
+    "course_number": "CS 133U",
+    "slug": "cs133u",
+    "course_name": "C Programming",
+    "credits": 4.0,
+    "course_type": "SCI",
+    "osu_equivalent": "-",
+    "psu_equivalent": "ECE 103",
+    "oit_equivalent": "-",
+    "pre_reqs": "Rec: CS 160",
+    "offered_fall": null,
+    "offered_winter": null,
+    "offered_spring": null,
+    "offered_summer": null,
+    "in_cive": false,
+    "in_me": false,
+    "in_ee": true,
+    "in_cheme": false,
+    "in_bioe": false,
+    "in_mse": false,
+    "in_enviroe": false,
+    "date_added": "2020-09-05T21:28:49.706Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 39,
+  "fields": {
+    "course_number": "CS 161",
+    "slug": "cs161",
+    "course_name": "Computer Science I",
+    "credits": 4.0,
+    "course_type": "SCI",
+    "osu_equivalent": "CS 161",
+    "psu_equivalent": "-",
+    "oit_equivalent": "CST 116",
+    "pre_reqs": "Rec: MTH 111, WR 121, CS 160",
+    "offered_fall": null,
+    "offered_winter": null,
+    "offered_spring": null,
+    "offered_summer": null,
+    "in_cive": false,
+    "in_me": false,
+    "in_ee": true,
+    "in_cheme": true,
+    "in_bioe": false,
+    "in_mse": false,
+    "in_enviroe": false,
+    "date_added": "2020-09-05T21:30:24.207Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 40,
+  "fields": {
+    "course_number": "CS 162",
+    "slug": "cs162",
+    "course_name": "Computer Science II",
+    "credits": 4.0,
+    "course_type": "SCI",
+    "osu_equivalent": "CS 162",
+    "psu_equivalent": "-",
+    "oit_equivalent": "-",
+    "pre_reqs": "CS 161, CS 140U; Rec: MTH 112, WR 121",
+    "offered_fall": null,
+    "offered_winter": null,
+    "offered_spring": null,
+    "offered_summer": null,
+    "in_cive": false,
+    "in_me": false,
+    "in_ee": true,
+    "in_cheme": false,
+    "in_bioe": false,
+    "in_mse": false,
+    "in_enviroe": false,
+    "date_added": "2020-09-05T21:32:27.055Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 41,
+  "fields": {
+    "course_number": "CS 260",
+    "slug": "cs260",
+    "course_name": "Data Structures",
+    "credits": 4.0,
+    "course_type": "SCI",
+    "osu_equivalent": "CS 261",
+    "psu_equivalent": "-",
+    "oit_equivalent": "-",
+    "pre_reqs": "CS 162",
+    "offered_fall": null,
+    "offered_winter": null,
+    "offered_spring": null,
+    "offered_summer": null,
+    "in_cive": false,
+    "in_me": false,
+    "in_ee": true,
+    "in_cheme": false,
+    "in_bioe": false,
+    "in_mse": false,
+    "in_enviroe": false,
+    "date_added": "2020-09-05T21:34:15.955Z"
   }
 },
 {
@@ -2142,6 +2859,10 @@
       13,
       4,
       14,
+      38,
+      39,
+      40,
+      41,
       1,
       3,
       31,

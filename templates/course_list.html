@@ -30,7 +30,7 @@
             {% for course in object_list %}
             {% if course.course_type == "ENGR" %}
             <tr>
-                <td>{{ course.course_number }}</td>
+                <td><a href="{% url 'course_detail' course.slug %}">{{ course.course_number }}</a></td>
                 <td>{{ course.course_name }}</td>
                 <td>{{ course.credits }}</td>
                 <td>{{ course.psu_equivalent }}</td>

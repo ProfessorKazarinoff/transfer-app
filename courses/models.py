@@ -18,6 +18,7 @@ class Course(models.Model):
         (GENED, "General Education Course"),
     ]
     course_number = models.CharField(max_length=10)
+    slug = models.CharField(max_length=10, null=True, blank=True)
     course_name = models.CharField(max_length=50)
     credits = models.FloatField()
     course_type = models.CharField(
@@ -50,7 +51,7 @@ class Course(models.Model):
         return f"{self.course_number} - {self.course_name}"
 
     def get_absolute_url(self):
-        return reverse("course_detail", args=[str(self.id)])
+        return reverse("course_detail", args=[str(self.slug)])
 
 
 class Major(models.Model):

@@ -3,6 +3,9 @@
 from django.views.generic import ListView, DetailView
 from .models import Course, Major
 
+class CourseDetailView(DetailView):
+    model = Course
+    template_name = "course_detail.html"
 
 class CourseListView(ListView):
     model = Course

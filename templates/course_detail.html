@@ -1,0 +1,24 @@
+<!-- templates/course_detail.html -->
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block custom_stylesheets %}
+    <link href="{% static 'css/advising_guide.css' %}" rel="stylesheet">
+{% endblock custom_stylesheets %}
+
+{% block content %}
+
+<div class="container">
+    <h3>{{ object.course_number }} - {{ object.course_name }}</h3>
+    <hr>
+    <p>Credits: {{ object.credits }} </p>
+    <p>Prereqs: {{ object.pre_reqs }}</p>
+    <hr>
+    <p>OSU Equivalent: {{ object.osu_equivalent }}</p>
+    <p>PSU Equivalent: {{ object.psu_equivalent }}</p>
+    <p>OIT Equivalent: {{ object.oit_equivalent }}</p>
+</div>
+
+{% endblock content %}
