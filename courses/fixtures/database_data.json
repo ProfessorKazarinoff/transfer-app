@@ -1274,6 +1274,58 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2020-09-05T23:58:12.413Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2020-09-06T00:01:05.650Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2020-09-06T00:04:49.021Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "OIT - Oregon Institute of Technology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2020-09-06T00:09:07.631Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "UP - University of Portland",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1562,6 +1614,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add college",
+    "content_type": 9,
+    "codename": "add_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change college",
+    "content_type": 9,
+    "codename": "change_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete college",
+    "content_type": 9,
+    "codename": "delete_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view college",
+    "content_type": 9,
+    "codename": "view_college"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -1623,6 +1711,14 @@
   "fields": {
     "app_label": "courses",
     "model": "major"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "courses",
+    "model": "college"
   }
 },
 {
@@ -2917,6 +3013,67 @@
       17,
       24,
       25
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 1,
+  "fields": {
+    "abbreviation": "PSU",
+    "name": "Portland State University",
+    "slug": "psu",
+    "description": "Portland State University (PSU) is a public research university in Portland, Oregon.\r\n\r\nPortland State is composed of seven constituent colleges, offering undergraduate degrees in one hundred twenty-three fields, and postgraduate degrees in one hundred seventeen fields. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science.",
+    "majors": [
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 2,
+  "fields": {
+    "abbreviation": "OSU",
+    "name": "Oregon State University",
+    "slug": "osu",
+    "description": "Oregon State University is located in Corvallis, about 90 minutes south of Portland and an hour drive from the Pacific coast. Undergraduates at Oregon State can explore more than 200 academic programs, and graduate students can choose from more than 100 master's programs, including those in the schools of business, engineering and education. Oregon State, often called OSU, is the state's largest public research university, which specializes in studies of marine sciences, and forestry.",
+    "majors": [
+      4,
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 3,
+  "fields": {
+    "abbreviation": "OIT",
+    "name": "Oregon Institute of Technology",
+    "slug": "oit",
+    "description": "The Oregon Institute of Technology, better known as OIT or Oregon Tech, is situated in the foothills of the Cascade Mountains, in the city of Klamath Falls. OIT academic programs include the highly ranked engineering and engineering technologies fields, as well as biology, management, communication studies, and radiologic science. As the school with America's first undergraduate program in renewable energy engineering, OIT emphasizes sustainability in both academic and campus life.",
+    "majors": [
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 4,
+  "fields": {
+    "abbreviation": "UP",
+    "name": "University of Portland",
+    "slug": "up",
+    "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon.\r\n\r\nUP campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. With a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing, it is the only comprehensive Catholic university in Oregon.",
+    "majors": [
+      2,
+      3,
+      1
     ]
   }
 }
