@@ -1,7 +1,7 @@
 # courses/views.py
 
 from django.views.generic import ListView, DetailView
-from .models import Course, Major
+from .models import College, Course, Major
 
 
 class CourseDetailView(DetailView):
@@ -22,3 +22,13 @@ class MajorDetailView(DetailView):
 class MajorListView(ListView):
     model = Major
     template_name = "major_list.html"
+
+
+class CollegeDetailView(DetailView):
+    model = College
+    template_name = "college_detail.html"
+
+
+class CollegeListView(ListView):
+    model = College
+    template_name = "college_list.html"
