@@ -1326,6 +1326,58 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2020-09-08T16:29:29.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "BI 234 - Microbiology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2020-09-08T16:35:45.082Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "EnviroE - Environmental Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2020-09-08T16:36:10.047Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2020-09-08T16:36:22.446Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2871,6 +2923,33 @@
   }
 },
 {
+  "model": "courses.course",
+  "pk": 42,
+  "fields": {
+    "course_number": "BI 234",
+    "slug": "bi234",
+    "course_name": "Microbiology",
+    "credits": 5.0,
+    "course_type": "SCI",
+    "osu_equivalent": "MB 230",
+    "psu_equivalent": "BI 234 / 235",
+    "oit_equivalent": "-",
+    "pre_reqs": "BI 112 or (BI 211 and 212); Rec: BI231",
+    "offered_fall": null,
+    "offered_winter": null,
+    "offered_spring": null,
+    "offered_summer": null,
+    "in_cive": false,
+    "in_me": false,
+    "in_ee": true,
+    "in_cheme": false,
+    "in_bioe": false,
+    "in_mse": false,
+    "in_enviroe": true,
+    "date_added": "2020-09-08T16:29:29.057Z"
+  }
+},
+{
   "model": "courses.major",
   "pk": 1,
   "fields": {
@@ -3017,6 +3096,45 @@
   }
 },
 {
+  "model": "courses.major",
+  "pk": 5,
+  "fields": {
+    "abbreviation": "EnviroE",
+    "name": "Environmental Engineering",
+    "slug": "enviroe",
+    "description": "Environmental Engineers are problem-solvers who find innovative solutions to environmental issues. Environmental engineers use the principles of engineering, soil science, biology, and chemistry to develop solutions to environmental problems. Their primary duties include collecting and analyzing environmental data, studying human influences on the environment, and improving environmental conservation management.",
+    "courses": [
+      42,
+      13,
+      4,
+      14,
+      34,
+      35,
+      36,
+      37,
+      23,
+      1,
+      28,
+      3,
+      6,
+      7,
+      8,
+      27,
+      5,
+      18,
+      19,
+      20,
+      21,
+      22,
+      15,
+      16,
+      17,
+      24,
+      25
+    ]
+  }
+},
+{
   "model": "courses.college",
   "pk": 1,
   "fields": {
@@ -3027,6 +3145,7 @@
     "majors": [
       2,
       3,
+      5,
       1
     ]
   }
@@ -3043,6 +3162,7 @@
       4,
       2,
       3,
+      5,
       1
     ]
   }
