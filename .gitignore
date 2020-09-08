@@ -132,3 +132,6 @@ db.sqlite3
 venv/
 .vscode/
 .idea/
+
+.DS_store
+.DS_Store
