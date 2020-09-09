@@ -62,7 +62,7 @@
             {% for course in object_list %}
             {% if course.course_type == "SCI" %}
             <tr>
-                <td>{{ course.course_number }}</td>
+                <td><a class="course-link-color" href="{% url 'course_detail' course.slug %}">{{ course.course_number }}</a></td>
                 <td>{{ course.course_name }}</td>
                 <td>{{ course.credits }}</td>
                 <td>{{ course.psu_equivalent }}</td>
@@ -93,7 +93,7 @@
             {% for course in object_list %}
             {% if course.course_type == "MTH" %}
             <tr>
-                <td>{{ course.course_number }}</td>
+                <td><a class="course-link-color" href="{% url 'course_detail' course.slug %}">{{ course.course_number }}</a></td>
                 <td>{{ course.course_name }}</td>
                 <td>{{ course.credits }}</td>
                 <td>{{ course.psu_equivalent }}</td>
@@ -124,7 +124,7 @@
             {% for course in object_list %}
             {% if course.course_type == "COMM" %}
             <tr>
-                <td>{{ course.course_number }}</td>
+                <td><a class="course-link-color" href="{% url 'course_detail' course.slug %}">{{ course.course_number }}</a></td>
                 <td>{{ course.course_name }}</td>
                 <td>{{ course.credits }}</td>
                 <td>{{ course.psu_equivalent }}</td>

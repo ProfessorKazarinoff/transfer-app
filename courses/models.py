@@ -27,6 +27,7 @@ class Course(models.Model):
     osu_equivalent = models.CharField(max_length=50)
     psu_equivalent = models.CharField(max_length=50)
     oit_equivalent = models.CharField(max_length=50)
+    up_equivalent = models.CharField(max_length=50, null=True, blank=True)
     pre_reqs = models.CharField(max_length=50)
 
     offered_fall = models.BooleanField(null=True, blank=True)
