@@ -1495,6 +1495,71 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2020-09-09T21:12:50.734Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ENGR 211 - Statics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2020-09-09T21:13:16.020Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "ENGR 212 - Dynamics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2020-09-09T21:13:48.811Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "ENGR 231 - Material Science",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2020-09-09T21:14:10.703Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "ENGR 213 - Strength of Materials",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2020-09-09T21:14:37.177Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "ENGR 105 - Engr Graphics 3-D",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1980,7 +2045,7 @@
     "osu_equivalent": "ENGR 248",
     "psu_equivalent": "ME 250",
     "oit_equivalent": "MET 241",
-    "up_equivalent": null,
+    "up_equivalent": "ME 222",
     "pre_reqs": "ENGR 101",
     "offered_fall": true,
     "offered_winter": true,
@@ -2092,7 +2157,7 @@
     "osu_equivalent": "ENGR 211",
     "psu_equivalent": "EAS 211",
     "oit_equivalent": "ENGR 211",
-    "up_equivalent": null,
+    "up_equivalent": "EGR 211",
     "pre_reqs": "MTH 252, PHY 211, ENGR101",
     "offered_fall": true,
     "offered_winter": true,
@@ -2120,7 +2185,7 @@
     "osu_equivalent": "ENGR 212",
     "psu_equivalent": "EAS 215",
     "oit_equivalent": "ENGR 212",
-    "up_equivalent": null,
+    "up_equivalent": "EGR 212",
     "pre_reqs": "ENGR 211",
     "offered_fall": false,
     "offered_winter": true,
@@ -2148,7 +2213,7 @@
     "osu_equivalent": "ENGR 213",
     "psu_equivalent": "EAS 212",
     "oit_equivalent": "ENGR 212",
-    "up_equivalent": null,
+    "up_equivalent": "EGR 322",
     "pre_reqs": "ENGR 211",
     "offered_fall": false,
     "offered_winter": false,
@@ -2232,7 +2297,7 @@
     "osu_equivalent": "-",
     "psu_equivalent": "ME 213",
     "oit_equivalent": "MET 160",
-    "up_equivalent": null,
+    "up_equivalent": "EGR 221 / 270",
     "pre_reqs": "PHY 211, MTH 252, CH 222",
     "offered_fall": false,
     "offered_winter": false,
