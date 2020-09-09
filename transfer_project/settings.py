@@ -21,12 +21,11 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "bd=7%pz85nbd-92oc52&rj5a8dkv(58hsxf^fjj4q3cq%zc%td"
-
+SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -117,3 +116,7 @@ AUTH_USER_MODEL = "users.CustomUser"  # new
 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [Path(BASE_DIR, "static")]
+STATIC_ROOT = "/var/www/example.com/static/"
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
