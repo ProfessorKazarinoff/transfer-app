@@ -1,0 +1,11 @@
+/* static/css/course_list.css
+
+-------------------------------------------------- */
+/* To make the links not blue */
+
+.course-link-color {
+  color: #444 !important; 
+}
+.course-link-color:hover, .text-my-own-color:active {
+  color: rgb(44, 44, 44) !important;
+}
