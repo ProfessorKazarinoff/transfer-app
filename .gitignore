@@ -135,3 +135,5 @@ venv/
 
 .DS_store
 .DS_Store
+
+staticfiles/
