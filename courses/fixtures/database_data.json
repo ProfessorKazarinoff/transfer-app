@@ -1560,6 +1560,110 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2020-09-09T21:16:43.354Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ENGR 221 - Electrical Circuits I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2020-09-09T21:18:22.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "PHY 211 - General Physics I (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2020-09-09T21:18:55.048Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "PHY 212 - General Physics II (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2020-09-09T21:19:42.450Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "PHY 213 - General Physics III (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2020-09-09T21:19:57.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "PHY 211 - General Physics I (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2020-09-09T21:20:09.180Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ENGR 222 - Electrical Circuits II",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2020-09-09T21:20:26.900Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "PHY 212 - General Physics II (Calculus)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Up equivalent\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2020-09-09T21:20:42.962Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "PHY 213 - General Physics III (Calculus)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2241,7 +2345,7 @@
     "osu_equivalent": "ENGR 201",
     "psu_equivalent": "ECE 241",
     "oit_equivalent": "EE 221",
-    "up_equivalent": null,
+    "up_equivalent": "EE 261 / 271",
     "pre_reqs": "ENGR 101, MTH 252; Rec MTH 253, PHY 213",
     "offered_fall": true,
     "offered_winter": true,
@@ -2409,7 +2513,7 @@
     "osu_equivalent": "PH 211",
     "psu_equivalent": "PH 211 / 214",
     "oit_equivalent": "PHY 221 and MSC L00",
-    "up_equivalent": null,
+    "up_equivalent": "PHYS 204 / 274 / 205 / 275",
     "pre_reqs": "MTH 251; Pr/c: MTH 252",
     "offered_fall": true,
     "offered_winter": true,
@@ -2437,7 +2541,7 @@
     "osu_equivalent": "PH 212",
     "psu_equivalent": "PH 213 / 216",
     "oit_equivalent": "PHY 223 and MSC L00",
-    "up_equivalent": null,
+    "up_equivalent": "PHYS 204 / 274 / 205 / 275",
     "pre_reqs": "PHY 211, MTH 252",
     "offered_fall": true,
     "offered_winter": true,
@@ -2465,7 +2569,7 @@
     "osu_equivalent": "PH 213",
     "psu_equivalent": "PH 212 / 215",
     "oit_equivalent": "PHY 222 and MASC L00",
-    "up_equivalent": null,
+    "up_equivalent": "PHYS 204 / 274 / 205 / 275",
     "pre_reqs": "PHY 211, MTH 252",
     "offered_fall": true,
     "offered_winter": true,
