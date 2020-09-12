@@ -43,6 +43,8 @@ class Course(models.Model):
     in_mse = models.BooleanField(null=True, blank=True, default=True)
     in_enviroe = models.BooleanField(null=True, blank=True, default=True)
 
+    description = models.TextField(max_length=1000, null=True, blank=True)
+
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:

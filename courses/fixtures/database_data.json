@@ -1664,6 +1664,97 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2020-09-12T03:10:08.041Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "BI 234 - Microbiology",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2020-09-12T03:12:14.912Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "BI 234 - Microbiology",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2020-09-12T03:12:56.417Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "CH 151 - Preparatory Chemistry",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2020-09-12T03:14:09.897Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "CH 221 - General Chemistry I",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2020-09-12T03:15:54.074Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "CH 222 - General Chemistry II",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2020-09-12T03:17:51.415Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "34",
+    "object_repr": "CH 223 - General Chemistry III",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2020-09-12T03:19:06.825Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "35",
+    "object_repr": "CH 241 - Organic Chemistry I",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2069,18 +2160,18 @@
 },
 {
   "model": "sessions.session",
-  "pk": "dbrvhjn5ivcv9ik0u5tzj8h8r1f6ui7s",
+  "pk": "dalvoahmvgzhuqm563owqe8c5vk7kryy",
   "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5grXcdHECOFCcV4u4QKQW0b2beSyTc1pq2XpY0sTgLEKffLSM9StsB37HdZklzW5cpy12RB-3yOnN5Xg7376Bir986Wk3BAg3WA2tUyg7KZ3JQSGvvMmjDmiIbT6CiQeOKGUOIKvrMPBrx_gC2ijcO:1kG3ID:SqpADz_uec_iQAqb4nzP6y1fnjqnpUcYqMc4EyV3Gh0",
-    "expire_date": "2020-09-23T16:49:57.529Z"
+    "session_data": ".eJxVjDsOwjAQBe_iGlk2_m0o6XMGa9dr4wBypDipEHeHSCmgfTPzXiLitta49bzEicVFaHH63QjTI7cd8B3bbZZpbusykdwVedAux5nz83q4fwcVe_3WwSCbgIqyShqNM05bVdhgGJh9cKDOYFPxAGQN2OIL0ZBYa509gSri_QHbEDfO:1kGvs4:C2A2zYX42XzETc3qtRLVNXCAl0bSvLvyN4JBw0BfFxI",
+    "expire_date": "2020-09-26T03:06:36.633Z"
   }
 },
 {
   "model": "sessions.session",
-  "pk": "pg96on1c2xcrheaihj53sa5kr3ahmp6b",
+  "pk": "dbrvhjn5ivcv9ik0u5tzj8h8r1f6ui7s",
   "fields": {
-    "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kDrJ2:m4OFeFM0IVrZRjeT72dsmBNEfvcFpK5k9M0n4XKPCUw",
-    "expire_date": "2020-09-17T15:37:44.238Z"
+    "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5grXcdHECOFCcV4u4QKQW0b2beSyTc1pq2XpY0sTgLEKffLSM9StsB37HdZklzW5cpy12RB-3yOnN5Xg7376Bir986Wk3BAg3WA2tUyg7KZ3JQSGvvMmjDmiIbT6CiQeOKGUOIKvrMPBrx_gC2ijcO:1kG3ID:SqpADz_uec_iQAqb4nzP6y1fnjqnpUcYqMc4EyV3Gh0",
+    "expire_date": "2020-09-23T16:49:57.529Z"
   }
 },
 {
@@ -2096,7 +2187,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-09-04T14:40:21.213Z",
+    "last_login": "2020-09-12T03:06:36.613Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -2134,6 +2225,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-02T03:53:05.120Z"
   }
 },
@@ -2162,6 +2254,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-02T03:54:35.799Z"
   }
 },
@@ -2190,6 +2283,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-02T04:23:41.162Z"
   }
 },
@@ -2218,6 +2312,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": "Explores measurements, properties of matter, nomenclature, atomic theory, chemical periodicity, and chemical bonding. Recommended for the following majors and pre-professional degrees: chemistry, natural science, engineering, medicine, and dentistry. This is the first course in a three-course sequence.",
     "date_added": "2020-09-02T04:28:40.133Z"
   }
 },
@@ -2246,6 +2341,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-02T04:44:34.971Z"
   }
 },
@@ -2274,6 +2370,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:43:11.885Z"
   }
 },
@@ -2302,6 +2399,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:46:04.794Z"
   }
 },
@@ -2330,6 +2428,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:48:25.492Z"
   }
 },
@@ -2358,6 +2457,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:51:45.074Z"
   }
 },
@@ -2386,6 +2486,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:54:42.045Z"
   }
 },
@@ -2414,6 +2515,7 @@
     "in_bioe": null,
     "in_mse": true,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:56:35.437Z"
   }
 },
@@ -2442,6 +2544,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T15:58:39.839Z"
   }
 },
@@ -2470,6 +2573,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": "Introduces basic chemical principles and computational problems found in General Chemistry with a concentration on developing both analytical and reasoning skills via problem solving. Prepares students wanting to take the CH 221-3 General Chemistry series that have no chemical background or have not taken a college or high school chemistry course in the last 3 years.",
     "date_added": "2020-09-03T18:21:43.375Z"
   }
 },
@@ -2498,6 +2602,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": "Explores stoichiometry; chemical reactions and equations; thermo chemistry; physical states of matter including properties of gases, liquids, solids and solutions; and chemical kinetics. Introduces organic chemistry. This is the second course in a three course sequence.",
     "date_added": "2020-09-03T18:25:01.252Z"
   }
 },
@@ -2526,6 +2631,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T18:29:07.846Z"
   }
 },
@@ -2554,6 +2660,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T18:31:21.064Z"
   }
 },
@@ -2582,6 +2689,7 @@
     "in_bioe": null,
     "in_mse": null,
     "in_enviroe": null,
+    "description": null,
     "date_added": "2020-09-03T18:34:20.992Z"
   }
 },
@@ -2610,6 +2718,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T20:17:36.128Z"
   }
 },
@@ -2638,6 +2747,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T20:47:17.907Z"
   }
 },
@@ -2666,6 +2776,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T20:49:16.829Z"
   }
 },
@@ -2694,6 +2805,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T20:51:02.927Z"
   }
 },
@@ -2722,6 +2834,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T20:53:49.296Z"
   }
 },
@@ -2750,6 +2863,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T21:00:05.924Z"
   }
 },
@@ -2778,6 +2892,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T21:01:56.277Z"
   }
 },
@@ -2806,6 +2921,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T21:04:02.766Z"
   }
 },
@@ -2834,6 +2950,7 @@
     "in_bioe": false,
     "in_mse": true,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:19:19.574Z"
   }
 },
@@ -2862,6 +2979,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:21:48.523Z"
   }
 },
@@ -2890,6 +3008,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:26:40.127Z"
   }
 },
@@ -2918,6 +3037,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:29:19.571Z"
   }
 },
@@ -2946,6 +3066,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:30:47.747Z"
   }
 },
@@ -2974,6 +3095,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:35:49.300Z"
   }
 },
@@ -3002,6 +3124,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:37:38.094Z"
   }
 },
@@ -3030,6 +3153,7 @@
     "in_bioe": true,
     "in_mse": true,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T21:39:23.155Z"
   }
 },
@@ -3058,6 +3182,7 @@
     "in_bioe": false,
     "in_mse": true,
     "in_enviroe": false,
+    "description": "Explores acid-base chemistry, ionic equilibria; electrochemistry; nuclear chemistry; thermodynamics; and descriptive chemistry topics. Includes special topics as time and interest allow. This is the third course in a three course sequence.",
     "date_added": "2020-09-03T21:46:00.845Z"
   }
 },
@@ -3086,6 +3211,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": "",
     "date_added": "2020-09-03T21:47:39.044Z"
   }
 },
@@ -3114,6 +3240,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": true,
+    "description": null,
     "date_added": "2020-09-03T21:49:15.364Z"
   }
 },
@@ -3142,6 +3269,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-03T21:50:38.965Z"
   }
 },
@@ -3170,6 +3298,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-05T21:28:49.706Z"
   }
 },
@@ -3198,6 +3327,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-05T21:30:24.207Z"
   }
 },
@@ -3226,6 +3356,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-05T21:32:27.055Z"
   }
 },
@@ -3254,6 +3385,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": false,
+    "description": null,
     "date_added": "2020-09-05T21:34:15.955Z"
   }
 },
@@ -3282,6 +3414,7 @@
     "in_bioe": false,
     "in_mse": false,
     "in_enviroe": true,
+    "description": "Lecture, recitation, and laboratory cover: bacterial identification, morphology, metabolism and genetics; bacterial, viral, and parasitic relationships with human health and disease; and basic immunology. Laboratory stresses aseptic technique, bacterial identification, and physiology using a variety of media, culturing techniques, and staining techniques.",
     "date_added": "2020-09-08T16:29:29.057Z"
   }
 },
