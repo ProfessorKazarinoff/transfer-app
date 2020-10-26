@@ -1755,6 +1755,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2020-10-26T17:01:36.441Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "WSU - Washington State University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2176,6 +2189,30 @@
 },
 {
   "model": "sessions.session",
+  "pk": "f0lxsfkw0siq94h9uf3xqpmh0j0moxgb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCZSoFx6d4zEIahUjU0Ke3KeHfbpAvd_vfef6sQ16WEteU5jKIuCtXpd-OYnrnuQB6x3iedprrMI-td0Qdt-jZJfl0P9--gxFa2esgDkSPqgIF6ZPQpWkBim1wWFoeS_WakMxHazpIBBCMOPKDxPanPF9PyNqU:1kX5nY:fLXprTFVkRtI7z8DHDNWPfBXTUGXEvPpt_rgc3BgzRY",
+    "expire_date": "2020-11-09T16:56:44.650Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pg96on1c2xcrheaihj53sa5kr3ahmp6b",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kDrJ2:m4OFeFM0IVrZRjeT72dsmBNEfvcFpK5k9M0n4XKPCUw",
+    "expire_date": "2020-09-17T15:37:44.238Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ypqbjtjgqx768c5z27xlm4g3fyaebk85",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kE2q3:A5NDDHxrZTdcbt95sda6-OI0X0mrL6YnvfV0bJHdAy4",
+    "expire_date": "2020-09-18T03:56:35.325Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "z8gsusw3z1qlb3dhsvxfh3jyk22pkh4z",
   "fields": {
     "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kECt3:2HcP4dC5Sff_tvFRNfsF3nGHhyk1Mv_meS_bZwjJcQE",
@@ -2187,7 +2224,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-09-12T03:06:36.613Z",
+    "last_login": "2020-10-26T16:56:44.646Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -3661,6 +3698,20 @@
     "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon.\r\n\r\nUP campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. With a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing, it is the only comprehensive Catholic university in Oregon.",
     "majors": [
       2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 5,
+  "fields": {
+    "abbreviation": "WSU",
+    "name": "Washington State University",
+    "slug": "wsu",
+    "description": "Washington State University (WSU) Vancouver is the only four-year research university in Southwest Washington. WSU Vancouver is a satellite campus of WSU located in Pullman, WA. WSU Vancouver offers bachelors of science degrees in Mechanical Engineering and Electrical Engineering.",
+    "majors": [
       3,
       1
     ]
