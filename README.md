@@ -9,7 +9,7 @@ Create virtual env and install requirements.txt
 ```
 python manage.py makemigrations
 python manage.py migrate
-python manage.py loaddata course/fixtures/database_data.json
+python manage.py loaddata courses/fixtures/database_data.json
 python manage.py collectstatic
 python manage.py runserver
 ```
