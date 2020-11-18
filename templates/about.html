@@ -17,4 +17,16 @@
         <a class="btn btn-lg btn-success" href="{% url 'major_list' %}" role="button">View All Majors »</a>
     </div>
 </div> <!-- /container -->
+<div class="container">
+    <!-- Example row of columns -->
+    <h2>Reference Links:</h2>
+    <div class="row">
+      {% for reference_link in object_list %}
+        <h4>{{ reference_link.url }}</h4>
+        <br></br>
+      {% endfor %}
+    <hr>
+
+    </div> <!-- /row -->
+  </div> <!-- /container -->
 {% endblock content %}

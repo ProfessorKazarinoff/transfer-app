@@ -14,13 +14,13 @@ python manage.py collectstatic
 python manage.py runserver
 ```
 
-To save the data in the database to a fixture:
+## To save the data in the database to a fixture:
 
 ```
-python manage.py dumpdata --indent 2 > course/fixtures/database_data.json
+python manage.py dumpdata --indent 2 > courses/fixtures/database_data.json
 ```
 
-To deploy to Heroku, install the Heroku CLI:
+## To deploy to Heroku, install the Heroku CLI:
 
 ```
 heroku login

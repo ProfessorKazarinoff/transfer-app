@@ -1768,6 +1768,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2020-11-18T16:45:15.022Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "OSU - Oregon State University - https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/pcc-meche.pdf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2020-11-18T16:45:57.801Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "PSU - Portland State University - https://www.pdx.edu/engineering/transfer-guides#mechanical",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2092,6 +2118,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add reference link",
+    "content_type": 10,
+    "codename": "add_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change reference link",
+    "content_type": 10,
+    "codename": "change_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete reference link",
+    "content_type": 10,
+    "codename": "delete_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view reference link",
+    "content_type": 10,
+    "codename": "view_referencelink"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -2164,6 +2226,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "pages",
+    "model": "referencelink"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "200r63nx3bnucoltq608db7qw7pv8x7x",
   "fields": {
@@ -2197,6 +2267,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "hxz57n5bu2at4i9wbbpvtf7d7kapdf4r",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgHWBcuvcMZAqDVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwJ3EWWpx-t4nig-sO0p3qrcnY6rrMk9wVedAury3x83K4fweFevnWwMZ7E61mHAHUkBF1do6yh5GSJQ1kgCwqq_IAkYDRWEoaAfLA5MT7A8RqN1U:1kfQZ8:deMIUcmjwiatn-oUar7rN5KlbQdG3mjac5Og6ofwoas",
+    "expire_date": "2020-12-02T16:44:18.227Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "pg96on1c2xcrheaihj53sa5kr3ahmp6b",
   "fields": {
     "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kDrJ2:m4OFeFM0IVrZRjeT72dsmBNEfvcFpK5k9M0n4XKPCUw",
@@ -2220,11 +2298,31 @@
   }
 },
 {
+  "model": "pages.referencelink",
+  "pk": 1,
+  "fields": {
+    "url": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/pcc-meche.pdf",
+    "college": 2,
+    "description": null,
+    "slug": "osu_me_reference"
+  }
+},
+{
+  "model": "pages.referencelink",
+  "pk": 2,
+  "fields": {
+    "url": "https://www.pdx.edu/engineering/transfer-guides#mechanical",
+    "college": 1,
+    "description": null,
+    "slug": "psu_me_reference"
+  }
+},
+{
   "model": "users.customuser",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-10-26T16:56:44.646Z",
+    "last_login": "2020-11-18T16:44:18.220Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
