@@ -79,6 +79,8 @@ class College(models.Model):
     name = models.CharField(max_length=50)
     slug = models.CharField(max_length=50, null=True, blank=True)
     description = models.TextField(max_length=500, null=True, blank=True)
+    is_2year = models.BooleanField(null=True, blank=True)
+    is_4year = models.BooleanField(null=True, blank=True)
     majors = models.ManyToManyField(Major)
 
     class Meta:

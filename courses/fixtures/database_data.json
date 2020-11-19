@@ -1794,6 +1794,123 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2020-11-19T15:55:08.189Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "OIT - Oregon Institute of Technology",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is 2year\", \"Is 4year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2020-11-19T15:55:18.498Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is 2year\", \"Is 4year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2020-11-19T15:55:27.170Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is 2year\", \"Is 4year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2020-11-19T15:55:35.737Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "UP - University of Portland",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is 2year\", \"Is 4year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2020-11-19T15:55:42.638Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "WSU - Washington State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is 2year\", \"Is 4year\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2020-11-19T15:59:56.398Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "PCC - Portland Community College",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2020-11-19T16:05:01.532Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "CCC - Clackamas Community College",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2020-11-19T16:07:53.692Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "MHCC - Mt. Hood Community College",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2020-11-19T16:11:41.612Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "CC - Clark College",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2259,6 +2376,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "dl2wqlq2xtww3ut8g0ei6le0ol9my5i1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCZSoFx6d4zEIahUjU0Ke3KeHfbpAvd_vfef6sQ16WEteU5jKIuCtXpd-OYnrnuQB6x3iedprrMI-td0Qdt-jZJfl0P9--gxFa2esgDkSPqgIF6ZPQpWkBim1wWFoeS_WakMxHazpIBBCMOPKDxPanPF9PyNqU:1kfmGq:GVpu90HplZE--B2r-8UQOpFdi4JjL98b0XDj1iqOEPQ",
+    "expire_date": "2020-12-03T15:54:52.180Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "f0lxsfkw0siq94h9uf3xqpmh0j0moxgb",
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2pCZSoFx6d4zEIahUjU0Ke3KeHfbpAvd_vfef6sQ16WEteU5jKIuCtXpd-OYnrnuQB6x3iedprrMI-td0Qdt-jZJfl0P9--gxFa2esgDkSPqgIF6ZPQpWkBim1wWFoeS_WakMxHazpIBBCMOPKDxPanPF9PyNqU:1kX5nY:fLXprTFVkRtI7z8DHDNWPfBXTUGXEvPpt_rgc3BgzRY",
@@ -2322,7 +2447,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-11-18T16:44:18.220Z",
+    "last_login": "2020-11-19T15:54:52.175Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -3746,6 +3871,8 @@
     "name": "Portland State University",
     "slug": "psu",
     "description": "Portland State University (PSU) is a public research university in Portland, Oregon.\r\n\r\nPortland State is composed of seven constituent colleges, offering undergraduate degrees in one hundred twenty-three fields, and postgraduate degrees in one hundred seventeen fields. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
       2,
       3,
@@ -3762,6 +3889,8 @@
     "name": "Oregon State University",
     "slug": "osu",
     "description": "Oregon State University is located in Corvallis, about 90 minutes south of Portland and an hour drive from the Pacific coast. Undergraduates at Oregon State can explore more than 200 academic programs, and graduate students can choose from more than 100 master's programs, including those in the schools of business, engineering and education. Oregon State, often called OSU, is the state's largest public research university, which specializes in studies of marine sciences, and forestry.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
       4,
       2,
@@ -3779,6 +3908,8 @@
     "name": "Oregon Institute of Technology",
     "slug": "oit",
     "description": "The Oregon Institute of Technology, better known as OIT or Oregon Tech, is situated in the foothills of the Cascade Mountains, in the city of Klamath Falls. OIT academic programs include the highly ranked engineering and engineering technologies fields, as well as biology, management, communication studies, and radiologic science. As the school with America's first undergraduate program in renewable energy engineering, OIT emphasizes sustainability in both academic and campus life.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
       2,
       3,
@@ -3794,6 +3925,8 @@
     "name": "University of Portland",
     "slug": "up",
     "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon.\r\n\r\nUP campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. With a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing, it is the only comprehensive Catholic university in Oregon.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
       2,
       3,
@@ -3809,7 +3942,79 @@
     "name": "Washington State University",
     "slug": "wsu",
     "description": "Washington State University (WSU) Vancouver is the only four-year research university in Southwest Washington. WSU Vancouver is a satellite campus of WSU located in Pullman, WA. WSU Vancouver offers bachelors of science degrees in Mechanical Engineering and Electrical Engineering.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 6,
+  "fields": {
+    "abbreviation": "PCC",
+    "name": "Portland Community College",
+    "slug": "pcc",
+    "description": "As the largest post-secondary institution in Oregon, Portland Community College (PCC) serves over 60,000 full-time and part-time students. We offer high-quality education and opportunities for our students, which in turn contributes to the vibrancy of Portland's economic community.\r\n\r\nPCC educates a skilled workforce, prepares students to successfully transfer to four-year schools, and enriches the community through lifelong learning.",
+    "is_2year": true,
+    "is_4year": false,
+    "majors": [
+      4,
+      2,
+      3,
+      5,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 7,
+  "fields": {
+    "abbreviation": "CCC",
+    "name": "Clackamas Community College",
+    "slug": "ccc",
+    "description": "At Clackamas Community College (CCC) you can find the education and training you need to get a promotion, a great job or to follow your passions. CCC is a 2-year community college with campuses in Oregon City, Wilsonville and Milwaukie, Oregon. We can help you set your goals and outline a path to get there. At CCC, we offer a variety of degrees and certificates to meet your needs, and CCC academic advisors and career coaches can help you stay on track toward success.",
+    "is_2year": null,
+    "is_4year": null,
+    "majors": [
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 8,
+  "fields": {
+    "abbreviation": "MHCC",
+    "name": "Mt. Hood Community College",
+    "slug": "mhcc",
+    "description": "Mt. Hood Community College (MHCC) is a public community college in Gresham, Oregon. Opened in 1966, MHCC enrolls around 30,000 students each year and offers classes at the 212-acre main campus in Gresham, as well as the Maywood Park Center in Portland, the Bruning Center for Allied Health Education (also in Gresham), and at local area public schools.",
+    "is_2year": true,
+    "is_4year": false,
+    "majors": [
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 9,
+  "fields": {
+    "abbreviation": "CC",
+    "name": "Clark College",
+    "slug": "cc",
+    "description": "Clark College is a public community college in Vancouver, Washington. With 11,500 students, Clark College is the largest institution of higher education in southwest Washington. Clark College offers more than 100 options for earning a bachelor degree, associate degree, certificate. Additionally, its Transitional Studies program serves adult students seeking to earn their high school diploma or equivalent, learn English as a Second Language, or gain basic skills and job-training programs.",
+    "is_2year": true,
+    "is_4year": false,
+    "majors": [
+      2,
       3,
       1
     ]
