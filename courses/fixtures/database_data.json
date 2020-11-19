@@ -1911,6 +1911,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2020-11-19T16:48:13.041Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "GFU - George Fox University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -4013,6 +4026,23 @@
     "description": "Clark College is a public community college in Vancouver, Washington. With 11,500 students, Clark College is the largest institution of higher education in southwest Washington. Clark College offers more than 100 options for earning a bachelor degree, associate degree, certificate. Additionally, its Transitional Studies program serves adult students seeking to earn their high school diploma or equivalent, learn English as a Second Language, or gain basic skills and job-training programs.",
     "is_2year": true,
     "is_4year": false,
+    "majors": [
+      2,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "courses.college",
+  "pk": 10,
+  "fields": {
+    "abbreviation": "GFU",
+    "name": "George Fox University",
+    "slug": "gfu",
+    "description": "George Fox University (GFU) is a Christian university in Newberg, Oregon. Founded as a school for Quakers in 1891, the private school has more than 4,000 students combined between its main campus in Newberg and its centers in Portland, Salem and Redmond. Graduate studies include psychology, social work, business, education, counseling, physical therapy and seminary. The 108-acre (0.44 km2) main campus is near downtown Newberg, OR.",
+    "is_2year": false,
+    "is_4year": true,
     "majors": [
       2,
       3,
