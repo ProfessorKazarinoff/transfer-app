@@ -9,21 +9,33 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('courses', '0001_initial'),
+        ("courses", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='ReferenceLink',
+            name="ReferenceLink",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('url', models.URLField()),
-                ('description', models.CharField(blank=True, max_length=80, null=True)),
-                ('slug', models.CharField(blank=True, max_length=50, null=True)),
-                ('college', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='courses.college')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("url", models.URLField()),
+                ("description", models.CharField(blank=True, max_length=80, null=True)),
+                ("slug", models.CharField(blank=True, max_length=50, null=True)),
+                (
+                    "college",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="courses.college",
+                    ),
+                ),
             ],
-            options={
-                'ordering': ['college'],
-            },
+            options={"ordering": ["college"],},
         ),
     ]

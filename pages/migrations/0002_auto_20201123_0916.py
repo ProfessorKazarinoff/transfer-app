@@ -6,16 +6,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('pages', '0001_initial'),
+        ("pages", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='referencelink',
-            options={'ordering': ['description']},
+            name="referencelink", options={"ordering": ["description"]},
         ),
-        migrations.RemoveField(
-            model_name='referencelink',
-            name='college',
-        ),
+        migrations.RemoveField(model_name="referencelink", name="college",),
     ]

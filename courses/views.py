@@ -4,6 +4,7 @@ from django.views.generic import ListView, DetailView
 from .models import Course, Major
 from colleges.models import College
 
+
 class CourseDetailView(DetailView):
     model = Course
     template_name = "course_detail.html"

@@ -6,11 +6,9 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('pages', '0002_auto_20201123_0916'),
+        ("pages", "0002_auto_20201123_0916"),
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='ReferenceLink',
-        ),
+        migrations.DeleteModel(name="ReferenceLink",),
     ]

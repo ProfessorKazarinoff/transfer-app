@@ -8,7 +8,7 @@ class Reference(models.Model):
     url = models.URLField(max_length=200)
     description = models.CharField(max_length=80, null=True, blank=True)
     slug = models.CharField(max_length=50, null=True, blank=True)
-    
+
     class Meta:
         ordering = ["description"]
 

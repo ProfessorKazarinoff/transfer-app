@@ -8,25 +8,34 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('pages', '0002_auto_20201123_0916'),
+        ("pages", "0002_auto_20201123_0916"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='College',
+            name="College",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('abbreviation', models.CharField(max_length=10)),
-                ('name', models.CharField(max_length=50)),
-                ('url', models.URLField(blank=True, null=True)),
-                ('slug', models.CharField(blank=True, max_length=50, null=True)),
-                ('description', models.TextField(blank=True, max_length=500, null=True)),
-                ('is_2year', models.BooleanField(blank=True, null=True)),
-                ('is_4year', models.BooleanField(blank=True, null=True)),
-                ('references', models.ManyToManyField(to='pages.ReferenceLink')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("abbreviation", models.CharField(max_length=10)),
+                ("name", models.CharField(max_length=50)),
+                ("url", models.URLField(blank=True, null=True)),
+                ("slug", models.CharField(blank=True, max_length=50, null=True)),
+                (
+                    "description",
+                    models.TextField(blank=True, max_length=500, null=True),
+                ),
+                ("is_2year", models.BooleanField(blank=True, null=True)),
+                ("is_4year", models.BooleanField(blank=True, null=True)),
+                ("references", models.ManyToManyField(to="pages.ReferenceLink")),
             ],
-            options={
-                'ordering': ['abbreviation'],
-            },
+            options={"ordering": ["abbreviation"],},
         ),
     ]

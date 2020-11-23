@@ -7,20 +7,25 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Reference',
+            name="Reference",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('url', models.URLField()),
-                ('description', models.CharField(blank=True, max_length=80, null=True)),
-                ('slug', models.CharField(blank=True, max_length=50, null=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("url", models.URLField()),
+                ("description", models.CharField(blank=True, max_length=80, null=True)),
+                ("slug", models.CharField(blank=True, max_length=50, null=True)),
             ],
-            options={
-                'ordering': ['description'],
-            },
+            options={"ordering": ["description"],},
         ),
     ]

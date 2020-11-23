@@ -7,70 +7,115 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Course',
+            name="Course",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('course_number', models.CharField(max_length=10)),
-                ('slug', models.CharField(blank=True, max_length=10, null=True)),
-                ('course_name', models.CharField(max_length=50)),
-                ('credits', models.FloatField()),
-                ('course_type', models.CharField(choices=[('ENGR', 'Engineering Course'), ('SCI', 'Science and Programming Course'), ('MTH', 'Mathematics Course'), ('COMM', 'Communications Course'), ('GENED', 'General Education Course')], default='ENGR', max_length=5)),
-                ('osu_equivalent', models.CharField(max_length=50)),
-                ('psu_equivalent', models.CharField(max_length=50)),
-                ('oit_equivalent', models.CharField(max_length=50)),
-                ('up_equivalent', models.CharField(blank=True, max_length=50, null=True)),
-                ('pre_reqs', models.CharField(max_length=50)),
-                ('offered_fall', models.BooleanField(blank=True, null=True)),
-                ('offered_winter', models.BooleanField(blank=True, null=True)),
-                ('offered_spring', models.BooleanField(blank=True, null=True)),
-                ('offered_summer', models.BooleanField(blank=True, null=True)),
-                ('in_cive', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_me', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_ee', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_cheme', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_bioe', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_mse', models.BooleanField(blank=True, default=True, null=True)),
-                ('in_enviroe', models.BooleanField(blank=True, default=True, null=True)),
-                ('description', models.TextField(blank=True, max_length=1000, null=True)),
-                ('date_added', models.DateTimeField(auto_now_add=True)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("course_number", models.CharField(max_length=10)),
+                ("slug", models.CharField(blank=True, max_length=10, null=True)),
+                ("course_name", models.CharField(max_length=50)),
+                ("credits", models.FloatField()),
+                (
+                    "course_type",
+                    models.CharField(
+                        choices=[
+                            ("ENGR", "Engineering Course"),
+                            ("SCI", "Science and Programming Course"),
+                            ("MTH", "Mathematics Course"),
+                            ("COMM", "Communications Course"),
+                            ("GENED", "General Education Course"),
+                        ],
+                        default="ENGR",
+                        max_length=5,
+                    ),
+                ),
+                ("osu_equivalent", models.CharField(max_length=50)),
+                ("psu_equivalent", models.CharField(max_length=50)),
+                ("oit_equivalent", models.CharField(max_length=50)),
+                (
+                    "up_equivalent",
+                    models.CharField(blank=True, max_length=50, null=True),
+                ),
+                ("pre_reqs", models.CharField(max_length=50)),
+                ("offered_fall", models.BooleanField(blank=True, null=True)),
+                ("offered_winter", models.BooleanField(blank=True, null=True)),
+                ("offered_spring", models.BooleanField(blank=True, null=True)),
+                ("offered_summer", models.BooleanField(blank=True, null=True)),
+                ("in_cive", models.BooleanField(blank=True, default=True, null=True)),
+                ("in_me", models.BooleanField(blank=True, default=True, null=True)),
+                ("in_ee", models.BooleanField(blank=True, default=True, null=True)),
+                ("in_cheme", models.BooleanField(blank=True, default=True, null=True)),
+                ("in_bioe", models.BooleanField(blank=True, default=True, null=True)),
+                ("in_mse", models.BooleanField(blank=True, default=True, null=True)),
+                (
+                    "in_enviroe",
+                    models.BooleanField(blank=True, default=True, null=True),
+                ),
+                (
+                    "description",
+                    models.TextField(blank=True, max_length=1000, null=True),
+                ),
+                ("date_added", models.DateTimeField(auto_now_add=True)),
             ],
-            options={
-                'ordering': ['course_number'],
-            },
+            options={"ordering": ["course_number"],},
         ),
         migrations.CreateModel(
-            name='Major',
+            name="Major",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('abbreviation', models.CharField(max_length=10)),
-                ('name', models.CharField(max_length=50)),
-                ('slug', models.CharField(blank=True, max_length=50, null=True)),
-                ('description', models.TextField(blank=True, max_length=500, null=True)),
-                ('courses', models.ManyToManyField(to='courses.Course')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("abbreviation", models.CharField(max_length=10)),
+                ("name", models.CharField(max_length=50)),
+                ("slug", models.CharField(blank=True, max_length=50, null=True)),
+                (
+                    "description",
+                    models.TextField(blank=True, max_length=500, null=True),
+                ),
+                ("courses", models.ManyToManyField(to="courses.Course")),
             ],
-            options={
-                'ordering': ['abbreviation'],
-            },
+            options={"ordering": ["abbreviation"],},
         ),
         migrations.CreateModel(
-            name='College',
+            name="College",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('abbreviation', models.CharField(max_length=10)),
-                ('name', models.CharField(max_length=50)),
-                ('slug', models.CharField(blank=True, max_length=50, null=True)),
-                ('description', models.TextField(blank=True, max_length=500, null=True)),
-                ('is_2year', models.BooleanField(blank=True, null=True)),
-                ('is_4year', models.BooleanField(blank=True, null=True)),
-                ('majors', models.ManyToManyField(to='courses.Major')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("abbreviation", models.CharField(max_length=10)),
+                ("name", models.CharField(max_length=50)),
+                ("slug", models.CharField(blank=True, max_length=50, null=True)),
+                (
+                    "description",
+                    models.TextField(blank=True, max_length=500, null=True),
+                ),
+                ("is_2year", models.BooleanField(blank=True, null=True)),
+                ("is_4year", models.BooleanField(blank=True, null=True)),
+                ("majors", models.ManyToManyField(to="courses.Major")),
             ],
-            options={
-                'ordering': ['abbreviation'],
-            },
+            options={"ordering": ["abbreviation"],},
         ),
     ]
