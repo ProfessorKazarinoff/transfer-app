@@ -1937,6 +1937,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2020-11-23T17:43:32.078Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "PSU Homepage - https://www.pdx.edu/",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2020-11-23T17:44:05.902Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2513,6 +2539,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add reference",
+    "content_type": 12,
+    "codename": "add_reference"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change reference",
+    "content_type": 12,
+    "codename": "change_reference"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete reference",
+    "content_type": 12,
+    "codename": "delete_reference"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view reference",
+    "content_type": 12,
+    "codename": "view_reference"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -2601,6 +2663,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "references",
+    "model": "reference"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "200r63nx3bnucoltq608db7qw7pv8x7x",
   "fields": {
@@ -2678,24 +2748,6 @@
   "fields": {
     "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kECt3:2HcP4dC5Sff_tvFRNfsF3nGHhyk1Mv_meS_bZwjJcQE",
     "expire_date": "2020-09-18T14:40:21.226Z"
-  }
-},
-{
-  "model": "pages.referencelink",
-  "pk": 1,
-  "fields": {
-    "url": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/pcc-meche.pdf",
-    "description": null,
-    "slug": "osu_me_reference"
-  }
-},
-{
-  "model": "pages.referencelink",
-  "pk": 2,
-  "fields": {
-    "url": "https://www.pdx.edu/engineering/transfer-guides#mechanical",
-    "description": null,
-    "slug": "psu_me_reference"
   }
 },
 {
@@ -4130,6 +4182,15 @@
     "description": "Portland State University (PSU) is a public research university in Portland, Oregon. It is the only public urban university in the state of Oregon that is located in a large city. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science, and the College of Liberal Arts and Sciences. The athletic teams are known as the Vikings.",
     "is_2year": false,
     "is_4year": true
+  }
+},
+{
+  "model": "references.reference",
+  "pk": 1,
+  "fields": {
+    "url": "https://www.pdx.edu/",
+    "description": "PSU Homepage",
+    "slug": "psu-homepage"
   }
 }
 ]

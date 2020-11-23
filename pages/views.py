@@ -3,7 +3,7 @@
 from django.views.generic import TemplateView, ListView
 
 from courses.models import Major
-from .models import ReferenceLink
+from references.models import Reference
 
 
 class HomePageListView(ListView):
@@ -17,4 +17,4 @@ class MajorsPageView(TemplateView):
 
 class AboutPageView(ListView):
     template_name = "about.html"
-    model = ReferenceLink
+    model = Reference
