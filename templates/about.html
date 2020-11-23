@@ -13,20 +13,8 @@
 <div class="container">
     <div class="jumbotron">
         <h1>About Engineering Transfer Advising Guides</h1>
-        <p class="lead">These guides were constructed with Portland Community College's transfer guide pages and Oregon Institute of Technology transfer mapping pages</p>
+        <p class="lead">These guides were constructed with Portland Community College's transfer guide pages. Additional transfer equivalences were provided by Portland State transfer maps, Oregon State transfer equivalencies and Oregon Institute of Technology transfer mapping pages.</p>
         <a class="btn btn-lg btn-success" href="{% url 'major_list' %}" role="button">View All Majors »</a>
     </div>
 </div> <!-- /container -->
-<div class="container">
-    <!-- Example row of columns -->
-    <h2>Reference Links:</h2>
-    <div class="row">
-      {% for reference_link in object_list %}
-        <h4>{{ reference_link.url }}</h4>
-        <br></br>
-      {% endfor %}
-    <hr>
-
-    </div> <!-- /row -->
-  </div> <!-- /container -->
 {% endblock content %}
