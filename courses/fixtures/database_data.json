@@ -1963,6 +1963,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2020-11-23T18:04:40.405Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2020-11-23T18:07:16.763Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "OIT - Oregon Institute of Technology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -4180,6 +4206,32 @@
     "url": "https://www.pdx.edu/",
     "slug": "pdx",
     "description": "Portland State University (PSU) is a public research university in Portland, Oregon. It is the only public urban university in the state of Oregon that is located in a large city. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science, and the College of Liberal Arts and Sciences. The athletic teams are known as the Vikings.",
+    "is_2year": false,
+    "is_4year": true
+  }
+},
+{
+  "model": "colleges.college",
+  "pk": 2,
+  "fields": {
+    "abbreviation": "OSU",
+    "name": "Oregon State University",
+    "url": "https://oregonstate.edu/",
+    "slug": "osu",
+    "description": "Oregon State University (OSU) is a public research university in Corvallis, Oregon. The university currently offers more than 200 undergraduate-degree programs along with a variety of graduate and doctoral degrees. Student enrollment averages near 32,000, making it the state's largest university.",
+    "is_2year": false,
+    "is_4year": true
+  }
+},
+{
+  "model": "colleges.college",
+  "pk": 3,
+  "fields": {
+    "abbreviation": "OIT",
+    "name": "Oregon Institute of Technology",
+    "url": "https://www.oit.edu/",
+    "slug": "oit",
+    "description": "The Oregon Institute of Technology (OIT) is a public polytechnic university in Oregon with a residential campus in Klamath Falls, Oregon, an urban campus in Wilsonville, Oregon, and additional locations in Salem, Oregon and Seattle, Washington. Oregon Tech provides a total of 32 degree programs in engineering, health technologies, management, communication, psychology and applied sciences with a total of 37 majors.",
     "is_2year": false,
     "is_4year": true
   }
