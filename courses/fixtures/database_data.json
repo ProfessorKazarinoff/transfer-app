@@ -1924,6 +1924,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2020-11-23T17:23:24.183Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2464,6 +2477,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add college",
+    "content_type": 11,
+    "codename": "add_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change college",
+    "content_type": 11,
+    "codename": "change_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete college",
+    "content_type": 11,
+    "codename": "delete_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view college",
+    "content_type": 11,
+    "codename": "view_college"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -2544,6 +2593,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "colleges",
+    "model": "college"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "200r63nx3bnucoltq608db7qw7pv8x7x",
   "fields": {
@@ -2601,6 +2658,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "um4648u1ym8k21sec0qdfoz2xvzfkgkc",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgHWBcuvcMZAqDVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwJ3EWWpx-t4nig-sO0p3qrcnY6rrMk9wVedAury3x83K4fweFevnWwMZ7E61mHAHUkBF1do6yh5GSJQ1kgCwqq_IAkYDRWEoaAfLA5MT7A8RqN1U:1khFSn:UWyxfqeqSc8_9149tgrd086x2ozPFELUtqUiYian870",
+    "expire_date": "2020-12-07T17:17:17.841Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "ypqbjtjgqx768c5z27xlm4g3fyaebk85",
   "fields": {
     "session_data": ".eJxVjMsOgjAUBf-la9PQQrnUpXu_gdynoAYSCivjvysJC92emTkv1-O2Dv1WdOlHcWcX3Ol3I-SHTjuQO0632fM8rctIflf8QYu_zqLPy-H-HQxYhm9NikEb7NqaJVYSKoIGLEOy1qRjVmMMFCEzoaUMLccIdZIA2YSM3fsDDk05LQ:1kE2q3:A5NDDHxrZTdcbt95sda6-OI0X0mrL6YnvfV0bJHdAy4",
@@ -2620,7 +2685,6 @@
   "pk": 1,
   "fields": {
     "url": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/pcc-meche.pdf",
-    "college": 2,
     "description": null,
     "slug": "osu_me_reference"
   }
@@ -2630,7 +2694,6 @@
   "pk": 2,
   "fields": {
     "url": "https://www.pdx.edu/engineering/transfer-guides#mechanical",
-    "college": 1,
     "description": null,
     "slug": "psu_me_reference"
   }
@@ -2640,7 +2703,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-11-19T15:54:52.175Z",
+    "last_login": "2020-11-23T17:17:17.835Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -4057,177 +4120,16 @@
   }
 },
 {
-  "model": "courses.college",
+  "model": "colleges.college",
   "pk": 1,
   "fields": {
     "abbreviation": "PSU",
     "name": "Portland State University",
-    "slug": "psu",
-    "description": "Portland State University (PSU) is a public research university in Portland, Oregon.\r\n\r\nPortland State is composed of seven constituent colleges, offering undergraduate degrees in one hundred twenty-three fields, and postgraduate degrees in one hundred seventeen fields. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science.",
+    "url": "https://www.pdx.edu/",
+    "slug": "pdx",
+    "description": "Portland State University (PSU) is a public research university in Portland, Oregon. It is the only public urban university in the state of Oregon that is located in a large city. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science, and the College of Liberal Arts and Sciences. The athletic teams are known as the Vikings.",
     "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      2,
-      3,
-      5,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 2,
-  "fields": {
-    "abbreviation": "OSU",
-    "name": "Oregon State University",
-    "slug": "osu",
-    "description": "Oregon State University is located in Corvallis, about 90 minutes south of Portland and an hour drive from the Pacific coast. Undergraduates at Oregon State can explore more than 200 academic programs, and graduate students can choose from more than 100 master's programs, including those in the schools of business, engineering and education. Oregon State, often called OSU, is the state's largest public research university, which specializes in studies of marine sciences, and forestry.",
-    "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      4,
-      2,
-      3,
-      5,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 3,
-  "fields": {
-    "abbreviation": "OIT",
-    "name": "Oregon Institute of Technology",
-    "slug": "oit",
-    "description": "The Oregon Institute of Technology, better known as OIT or Oregon Tech, is situated in the foothills of the Cascade Mountains, in the city of Klamath Falls. OIT academic programs include the highly ranked engineering and engineering technologies fields, as well as biology, management, communication studies, and radiologic science. As the school with America's first undergraduate program in renewable energy engineering, OIT emphasizes sustainability in both academic and campus life.",
-    "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      2,
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 4,
-  "fields": {
-    "abbreviation": "UP",
-    "name": "University of Portland",
-    "slug": "up",
-    "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon.\r\n\r\nUP campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. With a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing, it is the only comprehensive Catholic university in Oregon.",
-    "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      2,
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 5,
-  "fields": {
-    "abbreviation": "WSU",
-    "name": "Washington State University",
-    "slug": "wsu",
-    "description": "Washington State University (WSU) Vancouver is the only four-year research university in Southwest Washington. WSU Vancouver is a satellite campus of WSU located in Pullman, WA. WSU Vancouver offers bachelors of science degrees in Mechanical Engineering and Electrical Engineering.",
-    "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 6,
-  "fields": {
-    "abbreviation": "PCC",
-    "name": "Portland Community College",
-    "slug": "pcc",
-    "description": "As the largest post-secondary institution in Oregon, Portland Community College (PCC) serves over 60,000 full-time and part-time students. We offer high-quality education and opportunities for our students, which in turn contributes to the vibrancy of Portland's economic community.\r\n\r\nPCC educates a skilled workforce, prepares students to successfully transfer to four-year schools, and enriches the community through lifelong learning.",
-    "is_2year": true,
-    "is_4year": false,
-    "majors": [
-      4,
-      2,
-      3,
-      5,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 7,
-  "fields": {
-    "abbreviation": "CCC",
-    "name": "Clackamas Community College",
-    "slug": "ccc",
-    "description": "At Clackamas Community College (CCC) you can find the education and training you need to get a promotion, a great job or to follow your passions. CCC is a 2-year community college with campuses in Oregon City, Wilsonville and Milwaukie, Oregon. We can help you set your goals and outline a path to get there. At CCC, we offer a variety of degrees and certificates to meet your needs, and CCC academic advisors and career coaches can help you stay on track toward success.",
-    "is_2year": null,
-    "is_4year": null,
-    "majors": [
-      2,
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 8,
-  "fields": {
-    "abbreviation": "MHCC",
-    "name": "Mt. Hood Community College",
-    "slug": "mhcc",
-    "description": "Mt. Hood Community College (MHCC) is a public community college in Gresham, Oregon. Opened in 1966, MHCC enrolls around 30,000 students each year and offers classes at the 212-acre main campus in Gresham, as well as the Maywood Park Center in Portland, the Bruning Center for Allied Health Education (also in Gresham), and at local area public schools.",
-    "is_2year": true,
-    "is_4year": false,
-    "majors": [
-      2,
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 9,
-  "fields": {
-    "abbreviation": "CC",
-    "name": "Clark College",
-    "slug": "cc",
-    "description": "Clark College is a public community college in Vancouver, Washington. With 11,500 students, Clark College is the largest institution of higher education in southwest Washington. Clark College offers more than 100 options for earning a bachelor degree, associate degree, certificate. Additionally, its Transitional Studies program serves adult students seeking to earn their high school diploma or equivalent, learn English as a Second Language, or gain basic skills and job-training programs.",
-    "is_2year": true,
-    "is_4year": false,
-    "majors": [
-      2,
-      3,
-      1
-    ]
-  }
-},
-{
-  "model": "courses.college",
-  "pk": 10,
-  "fields": {
-    "abbreviation": "GFU",
-    "name": "George Fox University",
-    "slug": "gfu",
-    "description": "George Fox University (GFU) is a Christian university in Newberg, Oregon. Founded as a school for Quakers in 1891, the private school has more than 4,000 students combined between its main campus in Newberg and its centers in Portland, Salem and Redmond. Graduate studies include psychology, social work, business, education, counseling, physical therapy and seminary. The 108-acre (0.44 km2) main campus is near downtown Newberg, OR.",
-    "is_2year": false,
-    "is_4year": true,
-    "majors": [
-      2,
-      3,
-      1
-    ]
+    "is_4year": true
   }
 }
 ]

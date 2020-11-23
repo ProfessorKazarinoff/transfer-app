@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "users.apps.UsersConfig",
     "courses.apps.CoursesConfig",
+    "colleges.apps.CollegesConfig",
 ]
 
 MIDDLEWARE = [

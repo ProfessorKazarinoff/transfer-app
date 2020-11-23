@@ -3,9 +3,6 @@
 from django.db import models
 from django.urls import reverse
 
-from courses.models import Major
-from pages.models import ReferenceLink
-
 
 class College(models.Model):
     abbreviation = models.CharField(max_length=10)
@@ -15,8 +12,6 @@ class College(models.Model):
     description = models.TextField(max_length=500, null=True, blank=True)
     is_2year = models.BooleanField(null=True, blank=True)
     is_4year = models.BooleanField(null=True, blank=True)
-    majors = models.ManyToManyField(Major)
-    references = models.ManyToManyField(ReferenceLink)
 
     class Meta:
         ordering = ["abbreviation"]

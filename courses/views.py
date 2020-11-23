@@ -1,8 +1,8 @@
 # courses/views.py
 
 from django.views.generic import ListView, DetailView
-from .models import College, Course, Major
-
+from .models import Course, Major
+from colleges.models import College
 
 class CourseDetailView(DetailView):
     model = Course
