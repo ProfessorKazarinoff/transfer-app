@@ -2284,6 +2284,186 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add reference link",
+    "content_type": 6,
+    "codename": "add_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change reference link",
+    "content_type": 6,
+    "codename": "change_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete reference link",
+    "content_type": 6,
+    "codename": "delete_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view reference link",
+    "content_type": 6,
+    "codename": "view_referencelink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 7,
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add course",
+    "content_type": 8,
+    "codename": "add_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change course",
+    "content_type": 8,
+    "codename": "change_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete course",
+    "content_type": 8,
+    "codename": "delete_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view course",
+    "content_type": 8,
+    "codename": "view_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add major",
+    "content_type": 9,
+    "codename": "add_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change major",
+    "content_type": 9,
+    "codename": "change_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete major",
+    "content_type": 9,
+    "codename": "delete_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view major",
+    "content_type": 9,
+    "codename": "view_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add college",
+    "content_type": 10,
+    "codename": "add_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change college",
+    "content_type": 10,
+    "codename": "change_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete college",
+    "content_type": 10,
+    "codename": "delete_college"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view college",
+    "content_type": 10,
+    "codename": "view_college"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -2327,16 +2507,16 @@
   "model": "contenttypes.contenttype",
   "pk": 6,
   "fields": {
-    "app_label": "users",
-    "model": "customuser"
+    "app_label": "pages",
+    "model": "referencelink"
   }
 },
 {
   "model": "contenttypes.contenttype",
   "pk": 7,
   "fields": {
-    "app_label": "courses",
-    "model": "course"
+    "app_label": "users",
+    "model": "customuser"
   }
 },
 {
@@ -2344,7 +2524,7 @@
   "pk": 8,
   "fields": {
     "app_label": "courses",
-    "model": "major"
+    "model": "course"
   }
 },
 {
@@ -2352,15 +2532,15 @@
   "pk": 9,
   "fields": {
     "app_label": "courses",
-    "model": "college"
+    "model": "major"
   }
 },
 {
   "model": "contenttypes.contenttype",
   "pk": 10,
   "fields": {
-    "app_label": "pages",
-    "model": "referencelink"
+    "app_label": "courses",
+    "model": "college"
   }
 },
 {
