@@ -2,7 +2,7 @@
 
 from django.views.generic import TemplateView, ListView
 
-from courses.models import Major
+from majors.models import Major
 
 
 class HomePageListView(ListView):

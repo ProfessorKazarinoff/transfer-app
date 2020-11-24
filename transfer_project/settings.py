@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "users.apps.UsersConfig",
     "courses.apps.CoursesConfig",
     "colleges.apps.CollegesConfig",
+    "majors.apps.MajorsConfig",
     "references.apps.ReferencesConfig",
 ]
 

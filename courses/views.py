@@ -1,8 +1,10 @@
 # courses/views.py
 
 from django.views.generic import ListView, DetailView
-from .models import Course, Major
+
+from .models import Course
 from colleges.models import College
+from majors.models import Major
 
 
 class CourseDetailView(DetailView):

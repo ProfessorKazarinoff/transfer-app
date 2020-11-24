@@ -1989,6 +1989,123 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2020-11-24T22:06:49.798Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2020-11-24T22:08:46.492Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Courses\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2020-11-24T22:08:46.518Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2020-11-24T22:13:28.160Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "ChemE - Chemical Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2020-11-24T22:17:23.285Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "CivE - Civil Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2020-11-24T22:20:14.927Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "EE - Electrical Engineering",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2020-11-24T22:21:26.599Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ME - Mechanical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2020-11-24T22:22:00.185Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "CivE - Civil Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2020-11-24T22:22:29.654Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "EE - Electrical Engineering",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2601,6 +2718,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add major",
+    "content_type": 13,
+    "codename": "add_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change major",
+    "content_type": 13,
+    "codename": "change_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete major",
+    "content_type": 13,
+    "codename": "delete_major"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view major",
+    "content_type": 13,
+    "codename": "view_major"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -2694,6 +2847,14 @@
   "fields": {
     "app_label": "references",
     "model": "reference"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "majors",
+    "model": "major"
   }
 },
 {
@@ -4013,191 +4174,6 @@
   }
 },
 {
-  "model": "courses.major",
-  "pk": 1,
-  "fields": {
-    "abbreviation": "ME",
-    "name": "Mechanical Engineering",
-    "slug": "me",
-    "description": "Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems.",
-    "courses": [
-      13,
-      4,
-      14,
-      23,
-      1,
-      2,
-      3,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      5,
-      18,
-      19,
-      20,
-      21,
-      22,
-      15,
-      16,
-      17,
-      24,
-      25
-    ]
-  }
-},
-{
-  "model": "courses.major",
-  "pk": 2,
-  "fields": {
-    "abbreviation": "CivE",
-    "name": "Civil Engineering",
-    "slug": "cive",
-    "description": "Civil engineers conceive, design, build, supervise, operate, construct and maintain infrastructure projects and systems in the public and private sector, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment.",
-    "courses": [
-      13,
-      4,
-      14,
-      23,
-      1,
-      28,
-      3,
-      6,
-      7,
-      8,
-      9,
-      26,
-      27,
-      5,
-      18,
-      19,
-      20,
-      21,
-      22,
-      15,
-      16,
-      17,
-      24,
-      25
-    ]
-  }
-},
-{
-  "model": "courses.major",
-  "pk": 3,
-  "fields": {
-    "abbreviation": "EE",
-    "name": "Electrical Engineering",
-    "slug": "ee",
-    "description": "Electrical engineers design, develop, and test electrical devices and equipment, including communications systems, power generators, motors and navigation systems, and electrical systems for automobiles and aircraft. They also oversee the manufacture of these devices, systems, and equipment.",
-    "courses": [
-      13,
-      4,
-      14,
-      38,
-      39,
-      40,
-      41,
-      1,
-      3,
-      31,
-      9,
-      10,
-      33,
-      32,
-      5,
-      18,
-      19,
-      20,
-      21,
-      22,
-      15,
-      16,
-      17,
-      24,
-      25
-    ]
-  }
-},
-{
-  "model": "courses.major",
-  "pk": 4,
-  "fields": {
-    "abbreviation": "ChemE",
-    "name": "Chemical Engineering",
-    "slug": "cheme",
-    "description": "Chemical engineers develop and design chemical manufacturing processes. Chemical engineers apply the principles of chemistry, biology, physics, and math to solve problems that involve the production or use of chemicals, fuel, drugs, food, and many other products.",
-    "courses": [
-      13,
-      4,
-      14,
-      34,
-      35,
-      36,
-      37,
-      23,
-      1,
-      3,
-      6,
-      9,
-      30,
-      5,
-      18,
-      19,
-      20,
-      21,
-      22,
-      15,
-      16,
-      17,
-      24,
-      25
-    ]
-  }
-},
-{
-  "model": "courses.major",
-  "pk": 5,
-  "fields": {
-    "abbreviation": "EnviroE",
-    "name": "Environmental Engineering",
-    "slug": "enviroe",
-    "description": "Environmental Engineers are problem-solvers who find innovative solutions to environmental issues. Environmental engineers use the principles of engineering, soil science, biology, and chemistry to develop solutions to environmental problems. Their primary duties include collecting and analyzing environmental data, studying human influences on the environment, and improving environmental conservation management.",
-    "courses": [
-      42,
-      13,
-      4,
-      14,
-      34,
-      35,
-      36,
-      37,
-      23,
-      1,
-      28,
-      3,
-      6,
-      7,
-      8,
-      27,
-      5,
-      18,
-      19,
-      20,
-      21,
-      22,
-      15,
-      16,
-      17,
-      24,
-      25
-    ]
-  }
-},
-{
   "model": "colleges.college",
   "pk": 1,
   "fields": {
@@ -4234,6 +4210,157 @@
     "description": "The Oregon Institute of Technology (OIT) is a public polytechnic university in Oregon with a residential campus in Klamath Falls, Oregon, an urban campus in Wilsonville, Oregon, and additional locations in Salem, Oregon and Seattle, Washington. Oregon Tech provides a total of 32 degree programs in engineering, health technologies, management, communication, psychology and applied sciences with a total of 37 majors.",
     "is_2year": false,
     "is_4year": true
+  }
+},
+{
+  "model": "majors.major",
+  "pk": 1,
+  "fields": {
+    "abbreviation": "ME",
+    "name": "Mechanical Engineering",
+    "slug": "me",
+    "description": "Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems.",
+    "courses": [
+      13,
+      4,
+      14,
+      23,
+      29,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      30,
+      5,
+      18,
+      19,
+      20,
+      21,
+      22,
+      15,
+      16,
+      17,
+      24,
+      25
+    ]
+  }
+},
+{
+  "model": "majors.major",
+  "pk": 2,
+  "fields": {
+    "abbreviation": "ChemE",
+    "name": "Chemical Engineering",
+    "slug": "cheme",
+    "description": "",
+    "courses": [
+      13,
+      4,
+      14,
+      34,
+      35,
+      36,
+      37,
+      23,
+      1,
+      3,
+      6,
+      9,
+      30,
+      5,
+      18,
+      19,
+      20,
+      21,
+      22,
+      15,
+      16,
+      17,
+      24,
+      25
+    ]
+  }
+},
+{
+  "model": "majors.major",
+  "pk": 3,
+  "fields": {
+    "abbreviation": "CivE",
+    "name": "Civil Engineering",
+    "slug": "cive",
+    "description": "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.",
+    "courses": [
+      13,
+      4,
+      14,
+      29,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      26,
+      27,
+      30,
+      5,
+      18,
+      19,
+      20,
+      21,
+      22,
+      15,
+      16,
+      17,
+      24,
+      25
+    ]
+  }
+},
+{
+  "model": "majors.major",
+  "pk": 4,
+  "fields": {
+    "abbreviation": "EE",
+    "name": "Electrical Engineering",
+    "slug": "ee",
+    "description": "Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism.",
+    "courses": [
+      13,
+      4,
+      14,
+      23,
+      38,
+      39,
+      40,
+      41,
+      1,
+      3,
+      31,
+      9,
+      10,
+      33,
+      32,
+      30,
+      5,
+      18,
+      19,
+      20,
+      21,
+      22,
+      15,
+      16,
+      17,
+      24,
+      25
+    ]
   }
 },
 {
