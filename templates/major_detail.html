@@ -139,6 +139,41 @@
             {% endfor %}
         </tbody>
       </table>
+
+      <hr>
+
+      <h4>General Education Courses</h4>
+      <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Course number</th>
+                <th scope="col">Course name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">PSU equivalent</th>
+                <th scope="col">OSU equivalent</th>
+                <th scope="col">OIT equivalent</th>
+                <th scope="col">Prerequisites</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in object.courses.all %}
+            {% if course.course_type == "GENED" %}
+            <tr>
+                <td><a class="course-link-color" href="{% url 'course_detail' course.slug %}">{{ course.course_number }}</a></td>
+                <td>{{ course.course_name }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.psu_equivalent }}</td>
+                <td>{{ course.osu_equivalent }}</td>
+                <td>{{ course.oit_equivalent }}</td>
+                <td>{{ course.pre_reqs }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+      </table>
+
+      <hr>
+
     </div>
 
 {% endblock content %}
