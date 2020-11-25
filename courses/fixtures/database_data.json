@@ -2431,6 +2431,45 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2020-11-25T15:56:21.050Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "PCC - Portland Community College",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2020-11-25T15:59:36.292Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "UP - University of Portland",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2020-11-25T16:05:01.549Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "WSU - Washington State University - Vancouver",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -4707,6 +4746,45 @@
     "url": "https://www.oit.edu/",
     "slug": "oit",
     "description": "The Oregon Institute of Technology (OIT) is a public polytechnic university in Oregon with a residential campus in Klamath Falls, Oregon, an urban campus in Wilsonville, Oregon, and additional locations in Salem, Oregon and Seattle, Washington. Oregon Tech provides a total of 32 degree programs in engineering, health technologies, management, communication, psychology and applied sciences with a total of 37 majors.",
+    "is_2year": false,
+    "is_4year": true
+  }
+},
+{
+  "model": "colleges.college",
+  "pk": 4,
+  "fields": {
+    "abbreviation": "PCC",
+    "name": "Portland Community College",
+    "url": "https://pcc.edu",
+    "slug": "pcc",
+    "description": "Portland Community College (PCC) is a public community college in Portland, Oregon. It is the largest community college in the state and serves 1.9 million residents in the five-county area of Multnomah, Washington, Yamhill, Clackamas, and Columbia counties. There are four main campuses, which are larger facilities offering two-year degrees and a range of typical student services: Sylvania, Rock Creek, Cascade and Southeast.",
+    "is_2year": true,
+    "is_4year": false
+  }
+},
+{
+  "model": "colleges.college",
+  "pk": 5,
+  "fields": {
+    "abbreviation": "UP",
+    "name": "University of Portland",
+    "url": "https://www.up.edu",
+    "slug": "up",
+    "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon. The campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. UP has a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing. It is the only comprehensive Catholic university in Oregon.",
+    "is_2year": false,
+    "is_4year": true
+  }
+},
+{
+  "model": "colleges.college",
+  "pk": 6,
+  "fields": {
+    "abbreviation": "WSU",
+    "name": "Washington State University - Vancouver",
+    "url": "https://www.vancouver.wsu.edu/",
+    "slug": "wsu",
+    "description": "Washington State University Vancouver also known as WSU Vancouver is a branch campus of Washington State University. WSU Vancouver is located on a 351-acre (1.42 km2) campus outside of Vancouver, Washington, approximately eight miles (13 km) north of the Columbia River and 17 miles north of downtown Portland, Oregon. WSU Vancouver offers bachelor's degrees, master's degrees, and doctorate degrees in more than 40 fields of study.",
     "is_2year": false,
     "is_4year": true
   }
