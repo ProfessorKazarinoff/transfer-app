@@ -2626,6 +2626,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2020-11-25T16:48:26.267Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "CS - Computer Science",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -5228,7 +5241,7 @@
   "fields": {
     "abbreviation": "CS",
     "name": "Computer Science",
-    "slug": "https://www.pcc.edu/programs/computer-science/",
+    "slug": "cs",
     "description": "Computer science is the study of algorithmic processes and computational machines. As a discipline, computer science spans a range of topics from theoretical studies of algorithms, computation and information to the practical issues of implementing computing systems in hardware and software. Computer science addresses any computational problems, especially information processes, such as control, communication, perception, learning, and intelligence.",
     "courses": [
       40,

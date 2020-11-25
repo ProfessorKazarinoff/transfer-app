@@ -16,17 +16,6 @@ class CourseListView(ListView):
     model = Course
     template_name = "course_list.html"
 
-
-class MajorDetailView(DetailView):
-    model = Major
-    template_name = "major_detail.html"
-
-
-class MajorListView(ListView):
-    model = Major
-    template_name = "major_list.html"
-
-
 class CollegeDetailView(DetailView):
     model = College
     template_name = "college_detail.html"

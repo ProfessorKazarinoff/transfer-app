@@ -10,9 +10,5 @@ class HomePageListView(ListView):
     model = Major
 
 
-class MajorsPageView(TemplateView):
-    template_name = "majors_list.html"
-
-
 class AboutPageView(TemplateView):
     template_name = "about.html"
