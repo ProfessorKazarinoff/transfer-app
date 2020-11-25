@@ -2,6 +2,7 @@
 
 from django.db import models
 from django.urls import reverse
+from majors.models import Major
 
 
 class College(models.Model):
@@ -10,6 +11,7 @@ class College(models.Model):
     url = models.URLField(max_length=200, null=True, blank=True)
     slug = models.CharField(max_length=50, null=True, blank=True)
     description = models.TextField(max_length=500, null=True, blank=True)
+    majors = models.ManyToManyField(Major)
     is_2year = models.BooleanField(null=True, blank=True)
     is_4year = models.BooleanField(null=True, blank=True)
 

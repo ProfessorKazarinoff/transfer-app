@@ -2470,6 +2470,162 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2020-11-25T16:25:02.363Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "OIT - Oregon Institute of Technology",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2020-11-25T16:25:33.802Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2020-11-25T16:25:43.393Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "PCC - Portland Community College",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2020-11-25T16:25:59.374Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2020-11-25T16:26:24.344Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "UP - University of Portland",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2020-11-25T16:26:35.461Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "WSU - Washington State University - Vancouver",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2020-11-25T16:31:53.632Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "CS - Computer Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2020-11-25T16:32:19.590Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "OSU - Oregon State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2020-11-25T16:32:26.626Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "PCC - Portland Community College",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2020-11-25T16:32:36.999Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "PSU - Portland State University",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2020-11-25T16:32:48.395Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "UP - University of Portland",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2020-11-25T16:32:58.153Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "WSU - Washington State University - Vancouver",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Majors\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -4721,7 +4877,14 @@
     "slug": "pdx",
     "description": "Portland State University (PSU) is a public research university in Portland, Oregon. It is the only public urban university in the state of Oregon that is located in a large city. Schools at Portland State include the School of Business Administration, College of Education, School of Social Work, College of Urban and Public Affairs, College of the Arts, Maseeh College of Engineering and Computer Science, and the College of Liberal Arts and Sciences. The athletic teams are known as the Vikings.",
     "is_2year": false,
-    "is_4year": true
+    "is_4year": true,
+    "majors": [
+      7,
+      3,
+      4,
+      5,
+      1
+    ]
   }
 },
 {
@@ -4734,7 +4897,15 @@
     "slug": "osu",
     "description": "Oregon State University (OSU) is a public research university in Corvallis, Oregon. The university currently offers more than 200 undergraduate-degree programs along with a variety of graduate and doctoral degrees. Student enrollment averages near 32,000, making it the state's largest university.",
     "is_2year": false,
-    "is_4year": true
+    "is_4year": true,
+    "majors": [
+      7,
+      2,
+      3,
+      4,
+      5,
+      1
+    ]
   }
 },
 {
@@ -4747,7 +4918,13 @@
     "slug": "oit",
     "description": "The Oregon Institute of Technology (OIT) is a public polytechnic university in Oregon with a residential campus in Klamath Falls, Oregon, an urban campus in Wilsonville, Oregon, and additional locations in Salem, Oregon and Seattle, Washington. Oregon Tech provides a total of 32 degree programs in engineering, health technologies, management, communication, psychology and applied sciences with a total of 37 majors.",
     "is_2year": false,
-    "is_4year": true
+    "is_4year": true,
+    "majors": [
+      3,
+      4,
+      1,
+      6
+    ]
   }
 },
 {
@@ -4760,7 +4937,16 @@
     "slug": "pcc",
     "description": "Portland Community College (PCC) is a public community college in Portland, Oregon. It is the largest community college in the state and serves 1.9 million residents in the five-county area of Multnomah, Washington, Yamhill, Clackamas, and Columbia counties. There are four main campuses, which are larger facilities offering two-year degrees and a range of typical student services: Sylvania, Rock Creek, Cascade and Southeast.",
     "is_2year": true,
-    "is_4year": false
+    "is_4year": false,
+    "majors": [
+      7,
+      2,
+      3,
+      4,
+      5,
+      1,
+      6
+    ]
   }
 },
 {
@@ -4773,7 +4959,13 @@
     "slug": "up",
     "description": "The University of Portland (UP) is a private Roman Catholic university in Portland, Oregon. The campus is located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River. UP has a college of arts and sciences; a graduate school; and schools of business, education, engineering, and nursing. It is the only comprehensive Catholic university in Oregon.",
     "is_2year": false,
-    "is_4year": true
+    "is_4year": true,
+    "majors": [
+      7,
+      3,
+      4,
+      1
+    ]
   }
 },
 {
@@ -4786,7 +4978,12 @@
     "slug": "wsu",
     "description": "Washington State University Vancouver also known as WSU Vancouver is a branch campus of Washington State University. WSU Vancouver is located on a 351-acre (1.42 km2) campus outside of Vancouver, Washington, approximately eight miles (13 km) north of the Columbia River and 17 miles north of downtown Portland, Oregon. WSU Vancouver offers bachelor's degrees, master's degrees, and doctorate degrees in more than 40 fields of study.",
     "is_2year": false,
-    "is_4year": true
+    "is_4year": true,
+    "majors": [
+      7,
+      4,
+      1
+    ]
   }
 },
 {
@@ -5021,6 +5218,24 @@
       17,
       24,
       46,
+      25
+    ]
+  }
+},
+{
+  "model": "majors.major",
+  "pk": 7,
+  "fields": {
+    "abbreviation": "CS",
+    "name": "Computer Science",
+    "slug": "https://www.pcc.edu/programs/computer-science/",
+    "description": "Computer science is the study of algorithmic processes and computational machines. As a discipline, computer science spans a range of topics from theoretical studies of algorithms, computation and information to the practical issues of implementing computing systems in hardware and software. Computer science addresses any computational problems, especially information processes, such as control, communication, perception, learning, and intelligence.",
+    "courses": [
+      40,
+      44,
+      5,
+      18,
+      19,
       25
     ]
   }
