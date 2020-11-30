@@ -2639,6 +2639,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2020-11-30T15:54:32.880Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "COMM 215 - Communicating in Teams and Small Groups",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course number\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -3400,6 +3413,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "b98n92b8r788ssmeyclrjwncaqf3yznb",
+  "fields": {
+    "session_data": ".eJxVjMEOgjAQRP-lZ9OwLS2tR-98A9l2dwU1JaFwMv67kHDQ22Tem3mrAbd1HLbKyzCRuipQl98uYX5yOQA9sNxnneeyLlPSh6JPWnU_E79up_t3MGId93UjoSPhLtu4p1YiGWsoB0xeXGr2BMa3COJtBIAsDm2MYMSFJjCT-nwB9I44GA:1kjlUo:q8ipe6_ynNJAdq94k6BxqbSauvsgjxg7YQKyf-WtOPY",
+    "expire_date": "2020-12-14T15:53:46.094Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "dalvoahmvgzhuqm563owqe8c5vk7kryy",
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGlk2_m0o6XMGa9dr4wBypDipEHeHSCmgfTPzXiLitta49bzEicVFaHH63QjTI7cd8B3bbZZpbusykdwVedAux5nz83q4fwcVe_3WwSCbgIqyShqNM05bVdhgGJh9cKDOYFPxAGQN2OIL0ZBYa509gSri_QHbEDfO:1kGvs4:C2A2zYX42XzETc3qtRLVNXCAl0bSvLvyN4JBw0BfFxI",
@@ -3412,14 +3433,6 @@
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGllex19Kes5grXcdHECOFCcV4u4QKQW0b2beSyTc1pq2XpY0sTgLEKffLSM9StsB37HdZklzW5cpy12RB-3yOnN5Xg7376Bir986Wk3BAg3WA2tUyg7KZ3JQSGvvMmjDmiIbT6CiQeOKGUOIKvrMPBrx_gC2ijcO:1kG3ID:SqpADz_uec_iQAqb4nzP6y1fnjqnpUcYqMc4EyV3Gh0",
     "expire_date": "2020-09-23T16:49:57.529Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "dl2wqlq2xtww3ut8g0ei6le0ol9my5i1",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2pCZSoFx6d4zEIahUjU0Ke3KeHfbpAvd_vfef6sQ16WEteU5jKIuCtXpd-OYnrnuQB6x3iedprrMI-td0Qdt-jZJfl0P9--gxFa2esgDkSPqgIF6ZPQpWkBim1wWFoeS_WakMxHazpIBBCMOPKDxPanPF9PyNqU:1kfmGq:GVpu90HplZE--B2r-8UQOpFdi4JjL98b0XDj1iqOEPQ",
-    "expire_date": "2020-12-03T15:54:52.180Z"
   }
 },
 {
@@ -3475,7 +3488,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$gE3JtJJKzL39$2OLoRNsAD0q+mRKnRxKD+7mccBCPcMEVEynvrCocmik=",
-    "last_login": "2020-11-23T17:17:17.835Z",
+    "last_login": "2020-11-30T15:53:46.091Z",
     "is_superuser": true,
     "username": "peter",
     "first_name": "",
@@ -4768,7 +4781,7 @@
   "model": "courses.course",
   "pk": 45,
   "fields": {
-    "course_number": "COMM215",
+    "course_number": "COMM 215",
     "slug": "comm215",
     "course_name": "Communicating in Teams and Small Groups",
     "credits": 4.0,
