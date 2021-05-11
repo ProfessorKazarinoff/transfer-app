@@ -6,7 +6,7 @@ A web application built with Python and Django to show which community college c
 
 Create virtual env and install requirements.txt
 
-```
+```text
 python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata courses/fixtures/database_data.json
@@ -16,13 +16,13 @@ python manage.py runserver
 
 ## To save the data in the database to a fixture:
 
-```
+```text
 python manage.py dumpdata --indent 2 > courses/fixtures/database_data.json
 ```
 
 ## To deploy to Heroku, install the Heroku CLI:
 
-```
+```text
 heroku login
 heroku create
 heroku # set SECRET_KEY environment variable
