@@ -4,17 +4,19 @@ from pathlib import Path
 import os
 
 import environ
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-
-# Using django-environ package make sure .env file is present
-
+# Create env object from the environ package
 env = environ.Env(DEBUG=(bool, False))
+# read .env file
 env_file = os.path.join(BASE_DIR, ".env")
 if os.path.exists(env_file):
     environ.Env.read_env(env_file)
+
+# if production deploy, import django-heroku package
+if env("DEPLOY")=="prod":
+    import django_heroku
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -132,4 +134,5 @@ STATICFILES_DIRS = [Path(BASE_DIR, "static")]
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+if env("DEPLOY")=="prod":
+    django_heroku.settings(locals())
